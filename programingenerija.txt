@@ -1,0 +1,51 @@
+﻿@##1 lekcija 1.
+lidz 15 sept iesniegus par 2 gadu diplomu ASAP
+
+ja ierodas uz visam lekcijam (paraksti)
+kontoldarbos nevar mazāk 4.
+
+KD(30%):
+15.10
+03.12
+10.12
+
+not final
+-----------
+PD(20% kopā)
+10% 8/15 pr d apmeklejumi
+5% 4 jabut visai grupai prezentacijas
+5% bonuss aktivākajiem
+
+vadītāji:
+P : docents Sergejs Rikačovs
+O : Borzovs
+T : DD
+Piekd : dok makssims kravcevs
+artūrs žogla
+
+prasības
+projektējumi:
+	datubāzes
+	ekrānformas (GUI)
+atbilstoši standarta prasībām
+
+neiesaka spēles kā tēmu
+
+Eksāmens(50%)
+izstrādātā prakstiskā darba izstrādāšana
+
+javnāra pēdējā nedēļā (3-dien (drizak) vai 2-dien) 9:00 
+not final, critical
+var iesniegt iepriekš (ļoti iesaka)
+
+lidz 11.00 raksta recenzija
+pēc dialogs un izvertejums
+vērtējums ar precizitāti 0.1
+
+--------------
+i-iespeja
+noprogrammēt sistēmu
+
+5 min smoke test
+---------------
+118 studenti kopa
