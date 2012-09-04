@@ -1,5 +1,4 @@
-﻿1.lekcija
-konsulucijas:
+﻿konsulucijas:
 pirmdien 1600 1730 azpazijas bulv 5. 426 telpa
 KD:
 25.09 (25%)
@@ -14,3 +13,6 @@ Piemeram:
 ekonismikas sistēmas (par kādu valsti)
 kā problēmas risinātas (1 problema)
 enu ekonomika, noslāņošanās etc.
+-----
+1.lekcija
+uz pirkstiem par atšķirību par micro un makroekonimika 
