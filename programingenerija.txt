@@ -49,3 +49,33 @@ noprogrammēt sistēmu
 5 min smoke test
 ---------------
 118 studenti kopa
+
+@##2 lekcija 2.
+Fritz Bauer 1969.
+
+citās nozares:
+ideja
+uzmetums/skice
+projektēt
+konstruēt
+  uzturēšana
+  ražošanas sagatavošana
+
+programmēsana:
+ideja
+Requierements
+projektē
+kodēšana
+Development
+
+produkts: 
+programma: kods,izpildāmie faili
+dokumentācija
+informācija(lietotājam)
+
+definēt (define)
+konstruēt (create)
+atbalstīt (support)
+
+kādi procesi jāveic?
+kādi starpprodukti jāizveido?

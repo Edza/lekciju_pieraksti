@@ -1,3 +1,21 @@
 konsultacijas:
 Primdienās 1630 - 1800
 Zeļļu iela 8, 124 kab.
+
+1.lekcija
+
+V= pi* (integrate from a to b) (f2(x))dx
+S_virsma = 2pi*(integrate from a to b)f`(x) * sqrt(1+(f`(x))2)dx
+
+Līknes loka garums
+
+parametriskā līkne:
+{x=x(t)
+{y=y(t)
+t pieder [a;b]
+
+L = (integrate from a to b) sqrt((x`(t))2+(y`(t))2)dt
+
+funcijai:
+L = (integrate from a to b) sqrt(1+(f`(x))2)dx
+
