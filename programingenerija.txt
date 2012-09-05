@@ -79,3 +79,54 @@ atbalstīt (support)
 
 kādi procesi jāveic?
 kādi starpprodukti jāizveido?
+
+process
+apakšprocess aktivitāte - activity
+apakš(x2)process darbība vai akcija - [action]
+apakš(x3)process uzdevums - task
+
+projekts - project
+projetējums - a design
+
+* -project framework
+{
+*atbalta aktivitātes - umbreja activities:
+{
+dokumentēšana
+plānošana
+konfigurācija, pārvaldība
+kvalitātes pārbaude-QA
+mērīšana
+formālās tehniskās apskates
+risku pārvaldība
+*programinženierijas aktivitāte -
+}
+projektēšanas aktivitāte
+{}
+programmēšanas aktivitāte
+{}
+
+programinženierijas aktivitāte #
+{
+-,- akcija #1
+{
+ uzdevumi{
+	darba uzdevumi- work tasks
+	darba produkti
+	kvalitātes nodrošināsānas punkti QAP
+	projekta škirtnes - project milestones
+}
+}
+-,- akcija #2
+{
+uzdevumi
+}
+-,- akcija #3
+{
+uzdevumi
+}
+}
+
+programmatūras iztrādes dzīves cikls - sowftware life cycle
+
+1971.g
