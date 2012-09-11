@@ -127,6 +127,7 @@ uzdevumi
 }
 }
 
-programmatūras iztrādes dzīves cikls - sowftware life cycle
+programmatūras iztrādes dzīves cikls - software life cycle
 
 1971.g
+
