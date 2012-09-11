@@ -130,4 +130,63 @@ uzdevumi
 programmatūras iztrādes dzīves cikls - software life cycle
 
 1971.g
+@###3 lekcija 3.
+Fiziskie materiālie(ierīces)
+vannas līkne - bath-tube curve
+Programmatūra:
+nav k/x līkne
+nenovēlu nevienam uztaisīt kaut ko derīgu
+pīķo kad ievieš ko jaunu (change request)
+un lēni līdzinās bath curve
 
+kādi ir regresijas varbūtība?
+vidēji 50%
+
+darbietilpība - effort
+40% izstrāde
+60% izmaiņas
+
+Mīti:
+ Lietotāju mīti.
+	Izmaiņas ir viegli īstenojamas. Izmaiņa prasībās 1 vienība. Projektējumā 3-6 vienības. Kodā 10 vienības.Testēšana 30-70 vienības.Eksplotācija 40-100 vienības.
+	Pietiek ar vispārīgu uzdevuma formulējumu, lai sāktu programmēt.
+ Izstrādātāju mīti.
+	Tikko programma strādā, darbs ir padarīts.
+	Vienīgais nodevums (deliveable).
+	Kamēr programmu neiedarbina, tās kvalitāti novērtēt nevar.
+ Pārvaldītāju mīti.
+	Pietiek ar moderniem aparatūra un programmatūru. Vajag apmācības laiks. Pietiek ar rokasgrāmatām (manuals). Vajag apgrūt.
+Ja projekts kavējas, palielināsim programmētāju skaitu."Lielās ordas" "Mongoļu ordas".
+
+Programmatūras inženērijas
+(1) Sistemātikas, disciplenētas, kvantificējamas pieejas lietošana programmas izstrādei (development), darbināšanai(operating) un uzturēšanai(maintance), t.i. PI pielietošana.
+
+modelis is kautkas kas reprezentē jau esošo lietu vai procesu, iedomātu lietu vai procesu. Medelis ir vienkāršo.
+
+R.S. Pressman
+   |	Tools		     |
+  | 	Methods		      |	
+ |	Process		       |
+|	A quality focus		|
+
+--------------------------------------------
+Kādā secībā izpildīt ietveraktivitātes?
+V.Royce - waterfall (udenskrituma modelis lineārie modeļi)
+Kommunikācija
+	Plānošana
+		Modelēšana
+			Konstruēšana (coding+testing)
+				Izvēršana - deployment
+
+b-modelis
+Analīze
+Projetēšana 
+Manefacturing Konstruēšna
+Akceptēšana
+Darbināšana/Ekplocēšna
+	Vērtēšana
+		Analīze
+			Projektēšana
+				konstruēšana -> Akceptēšanu
+
+v-modelis
