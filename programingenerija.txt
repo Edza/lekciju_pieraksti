@@ -200,7 +200,7 @@ Ganta diagramma
 incremental
 pieaudzējošais
 
-ātrās istŗades modelis
+ātrās iztrādes modelis
 RAD Rapid application development modelis
 60-90 dienu termiņš
 
@@ -234,3 +234,7 @@ Prezentācijas
 Eksāmena materiāls
 
 Praktiskais darbs ir izrukāts, iesiets dokuments.
+----------------------------------
+Standarti:
+norāda kas jābūt dokumentos.
+norāda procesa soļus.

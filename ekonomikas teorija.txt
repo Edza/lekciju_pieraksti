@@ -56,8 +56,70 @@ Ekomiskie sociālie mērķi
 		Vides
 	
 !!!Uzdevums 2:
-sameklēt info par Lativijas ekonomisko sistēmu.
+sameklēt info par Latvijas ekonomisko sistēmu.
 
 Pieprasīvums un piedāvājums
+
+pieprasjums - līkne
+pieprasītais daudzums - Q
+
+piedāvātais daudzums ~
+ citu preču cena
+ piedēvāto preces cena
+ ražošanas produktivitāte
+ R F cenas
+
+Ārpus cenu faktori
+ Ražošnas faktori cenu izmaiņas
+ tehnoloģija
+ nodokļi, muitas tarifi, subsīdijas
+ citu preču cenu izmaiņas
+ pārdevēju skaits
+ klimats
+ cenu izmaiņu prognozes
+
+tirgus līdsvars (Qs=Qd)
+iztrūkums (Qs<Qd)
+pārpalikums (Qs>Qd)
+
+Cenas veidošanās:
+ veido cenas
+ fiksētas cenas
+ nosaka robežas (cenu grīda un cena griesti)
+
+elastīgums: viena mainīgā lieluma reakcijs mērs uz cita mainīgā lieluma izmaiņas
+
+atkarībā no:
+ cenas uzmaiņas (cenu ekasīgums)
+ 
+E>1 elastīgs
+E<1 neelestīgs
+E=1 vienādots
+------
+Preces E Q(ienākumu līmenis)
+ E<0 mazvērtīgas
+ E>0 normālas
+ E>1 eksklozīves preces
+ 0<E<1 pirmās nepieciešamības preces
+--
+Exy = dQx * Py/ (dPy * Qx)
+
+Exy >0 aizstājošas preces
+Exy <0 papildinošas
+Exy =0 nesasitītas
+
+P+ (P^+) cena pircējam
+P- cena pārdevējam
+
+P- = P+ -N//nodokļi
+P- = P+ +S//subsīdīcijas
+
+KD(25.09) 1-6 nod Ekonomikas pamatteorija.
+
+Kartupeļu cena pieaug par 15%. P u
+Ja cenu līmenis samazinās, tad pieprasītais daudzums samazinās. P m
+Pārmēgas naudas emisijas sekas ir vispārīga cenu līmeņa celšanās. P m
+Resursi ir ierobežoti un vajadzības ir neierobežotas. P u/m
+Ja mājokļu pieprasījums vēl ar vien pieaugs, tad iedzīvotājiem vajadzētu piešķirt ES fondu līdzekļi. N u
 
 
