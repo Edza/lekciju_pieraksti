@@ -18,3 +18,8 @@ prakses vadītājs (no uzņēmuma)
 klavifikācijas darba vadītājs (ar izglītību)
 uzņemuma vadītājs spēj parakstīt līgumu
 
+Apraksts:
+prasības
+projetējums
+testēšanas dokuments
+vispārīgs apraksts

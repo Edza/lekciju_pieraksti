@@ -190,3 +190,47 @@ Darbināšana/Ekplocēšna
 				konstruēšana -> Akceptēšanu
 
 v-modelis
+
+Iecerētais Produkts		Izvēlētie izstrādes procesi
+tabula kuram taska atbilt kura fāze un cik cilvēk stundas
+
+Tīklveida plānošana
+Ganta diagramma
+
+incremental
+pieaudzējošais
+
+ātrās istŗades modelis
+RAD Rapid application development modelis
+60-90 dienu termiņš
+
+evolutinarie modeļi
+prototipēšanas modelis
+spirāles modelis
+unified process model
+
+agile-spējā izstrāde
+1975. gadā kautkas līdzīgs
+scrum model
+maza (3-9) cilvēku kompānija
+intensīva komunikācija ar pasūtītāju
+specifikācijas vietā testpiemēri
+
+---------------------------
+praktiskie darbi
+1.sistēmas tēma vajag uz 19.09
+vai zināms problēmu apgabals?
+kādi būs šīs sistēmas lietotāji? (kādas grupas?)
+pamatfunkcijas
+tehnoloģija
+2. vērtēšana
+
+Prezentācijas
+1. Ievads, prasības 26.09, 3.10
+2. datu plūsmu diagrammas 24.10 31.10
+3. Datu bāze 21.11, 28.11
+4. ekrānformas 12.12, 19.12
+
+Eksāmena materiāls
+
+Praktiskais darbs ir izrukāts, iesiets dokuments.

@@ -19,3 +19,7 @@ L = (integrate from a to b) sqrt((x`(t))2+(y`(t))2)dt
 funcijai:
 L = (integrate from a to b) sqrt(1+(f`(x))2)dx
 
+2. lekcija
+Neīstie integrāļi
+
+
