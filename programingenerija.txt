@@ -238,3 +238,18 @@ Praktiskais darbs ir izrukāts, iesiets dokuments.
 Standarti:
 norāda kas jābūt dokumentos.
 norāda procesa soļus.
+
+----------------
+pr.d
+nosaukums
+sistēmas neformāls apraksts
+ līdzīgi anotācijai 300 - 400 zīmes
+biznesa prasības
+ mērķis
+ vajadzības, kuras grib sasniegt.
+ veiksmes faktors
+ 3-5 teikumi
+ piem:"iespēja internetā saņemt pakalpojumus"
+lietotāji
+funkciju shēma
+ 

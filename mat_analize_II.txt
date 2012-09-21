@@ -22,4 +22,10 @@ L = (integrate from a to b) sqrt(1+(f`(x))2)dx
 2. lekcija
 Neīstie integrāļi
 
+3. lekcija
+skaitļu rinda:
+par skaitļu rindu sauc bezgalīgu summu, kur summēti ir skaitļu virknes (a_n)n pieder N elementi:
+a1+a2+...+am = sigma(k[1..+inf])_ak
+
+pirmo n summa sauc par parciālsummu.
 
