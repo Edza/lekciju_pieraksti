@@ -252,4 +252,16 @@ biznesa prasības
  piem:"iespēja internetā saņemt pakalpojumus"
 lietotāji
 funkciju shēma
- 
+----------------------------
+PPS
+no intervijam iegūst
+tad apkopo
+tad saskaņo
+
+PPS saturs
+1.Ievads
+ kas ir un kas nav
+2. Vispārējs apraskts
+2.1. Produkta perspektīva
+ kāds ir problēmu pagabals, konteksts, vide ar kadā sistēmām iedarbojas
+2.2. Produkta funkcijas
