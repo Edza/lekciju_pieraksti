@@ -1,4 +1,4 @@
-@##1 Lekcija 1.
+﻿@##1 Lekcija 1.
 Konsultācijas:
 otrdienas : 1630-1800
 Room 327 3rd floor
@@ -142,3 +142,69 @@ savi puikas (company man)
  
 spēļmaņi (gamesmen)
  savu stāvokli uztver par sacensībām, agresīvi
+
+-------------------------------
+plānošana
+
+plānošanas posmi
+
+esošās situācijas novērtēšana
+mērķu un uzdevumu noteikšana
+vides pieņēnumi
+alternatīvo darbību un veidu noteikšana
+alternatīvo variantu atlasa
+darbības variantu izvēle
+papildplānu sastādīšana
+plāna izteikšana skaitļosa
+plāna izpilde
+
+uzņēmuma plānu nodaļas funkcijas:
+
+atbild par stratēģisku domāšanu
+stratēģiskās informācijas vākšana
+jaunu stratēģiju rekomendācija
+apakšvienību plānu variantu apkopošana un analīze
+plānu izpilde
+
+plānošanas metodes
+
+normatīvās metodes
+ekspertu vērtējuma metodes
+ekonomisko eksperimentu metodes
+analītiskā metode
+prāta vētru metode
+bilanču metode
+vairāku variantu pretstatīšanas metode
+optimālās plānošanas metode
+tīklveida metode
+mērķprogrammu metode
+
+plāna izstrādāšanas tiek iesaistīti arī:
+
+uzņēmuma tehniskie dienaasti
+masketinga nodaļa
+normiatīvu birojs
+sagādes daļa
+personāldaļa
+ražošanas nodaļa
+grāmatvedība
+
+plānošanā jāņem vērā
+
+plānošanas motīvs
+kooridinēšana
+komunikācija
+katra darbinieka atbildība
+motivējošie faktori
+resursu pārdale
+uzraudzība un kontrole
+
+plānošanas procesa laika aspekts:
+tiek izstrādāts kalendārais plāns kurā fiksēta katra plānošanas posma darbietilbība un izpildes ilgums
+
+informacijas sitēmas radīšanās jādod atbildes uz jautājumiem:
+ko ir nepieciešams zināt?
+kur ir iespējams
+kurš šos datus savāks?
+
+
