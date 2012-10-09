@@ -252,4 +252,104 @@ biznesa prasības
  piem:"iespēja internetā saņemt pakalpojumus"
 lietotāji
 funkciju shēma
- 
+------------------------
+15.10. 8:30 vai 10:30 90min KD
+2 jautājumi
+------------------------
+1.datu plūsmu diagramas (data flow diagrams)
+
+četri elementi:
+riņķis - process ar nosaukumu (bieži ar -šana)
+taisnstūris - ārēja entitāte (external entity) ar nosaukumu (piem lietotāji ar veidu)
+līnijas ar bultiņu - informācijas plūsma(data flow) ar nosaukumu (var savienot procesus ar jebko)
+divas paralelas taisnes - datu krātuve (data store) ar nosaukumu =/= datubāze (superkopa datubāzei)
+
+Var izmantot dialektu norādot precīzi.
+0. līmeņa jeb konteksta diagramma. Tieši 1 process.
+1. līmeņa 0->1. divide and conquer katru procesu paskaidro ar atsevišķu diagrammu.
+
+2.programēšnas projektu pārvaldība (organizācija struktūrai)
+
+PMBOK - project management body of knowlage
+PMI - project managemant institute
+
+Projeta pārvaldība - zināšanu (knowladge)prasmju (skils) rīku (tools),  paņēmienu (techniques) projeta aktivitātēs ar mērķi apmierināt projekta prasības.
+pārvaldības darbības lauks:
+konkurrējošas vajadzības
+
+tvērums - scope
+laiks
+izmaksas
+riski - threats
+kvalitāte
+
+iesinteresētie (stakeholders) gan + gan -
+indenficētās prasības
+
+
+9 apkakšprocesi
+1. projeta integrācijas pārvaldība (neizjukt)
+	projekta plāna iztrāde
+	pp izpilde
+	integretāte izmaiņu vadība
+2. projekta tvēru pārvaldība
+	inicēšana
+	tvēruma plānošana
+	tvēruma definēšana
+	tvēruma izmaiņu vadība
+3. projekta laika pārvaldība
+	aktivitāšu noteikšana
+	aktivitāšu savirknēšana
+	aktivitāšu ilguma prognozēšana
+	laikaposma (schedule) iztrāde
+	laikaplānu vadība
+4. projekta izmaksu(cost) pārvaldība
+	resursu plānošana
+	izmaksu prognozēšana
+	izmaksu iekļaušana buģetā
+	izmaksu vadība
+5. projekta kvalitātes vadība
+	kvalitātes plānošana
+	kvalitātes nodrošināšana
+	kvalitātes vadība
+6. projekta personāla
+	organizācionālā plānošana
+	personāla piesaiste projektam
+	komandas veidošanas
+7. projekta komunikācijas (saziņas) pārvaldība
+	saziņas plānošana
+	imformācijas izplatīšana
+	ziņošana par paveikto
+	administratīvā slēgšana (closure)
+8. projekta risku pārvaldība
+	risku pārvaldības plānošana
+	risku identificēšana
+	izanalizēt riskus:
+	kvalitatīvā
+ 	(?)konfitatīvā
+	reaģēšanas uz riskiem plānošana
+	risku novērošana novērošana (monitoring)
+9. projekta apgāde
+	apgādes plānošana
+	iegādes (delivery) plānošana
+	iegāde
+	līguma administrēšana
+	līguma nobeigšana
+
+Organizāciju tipi:
+Funcionālā organizācija (Borzovam liekas ka vajag norādīt šo kvalifikāciajas darbā- ir sadaļa)
+matricas
+	vājās matricas
+	līdzsvarotās (balensētās)
+	stiprās matricas
+Projektorientātās
+
+Funcionālās
+
+chief exutive
+
+funtional mgr (depertamenti)
+un staff
+
+
+3.dabietilbības progranazēšana(effort estimation)
