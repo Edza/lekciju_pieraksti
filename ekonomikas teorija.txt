@@ -138,3 +138,20 @@ sameklēt info par bagātākie cilvēkiem
 
 samelēt patērētāju tiesību likumu
 sameklēt piemērus pārpākumus
+
+MU = dTU/dQ
+
+Q	MU	TU
+1	5	5
+2	4	9
+3	3	12
+4	2	14
+5	0	14
+
+TU5 = TU4 + MU5
+
+Patērētāja līdzsvars
+
+MUa/Pa = const n precēm, tad maksimālais derīgums
+
+
