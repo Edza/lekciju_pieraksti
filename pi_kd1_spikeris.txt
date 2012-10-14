@@ -1,0 +1,62 @@
+Programmatûras produkti un procesi
+
+produkts: 
+programma: kods,izpildâmie faili
+dokumentâcija
+informâcija(lietotâjam)
+
+process
+apakðprocess aktivitâte - activity
+apakð(x2)process darbîba vai akcija - [action]
+apakð(x3)process uzdevums - task
+
+Programmatûras projekta pârvaldîbas procesi
+
+dokumentçðana
+plânoðana
+konfigurâcija, pârvaldîba
+kvalitâtes pârbaude-QA
+mçrîðana
+formâlâs tehniskâs apskates
+risku pârvaldîba
+
+Organizâciju un programmizstrâdes komandu tipi
+
+
+Projekta kalendârâ ilguma un darbietilpîbas prognozçðana
+Constructive Cost Model (COCOMO) no funciju skaita un komands tipa dabû estimate.
+
+Tîkliskâ plânoðana un Ganta diagrammas (ar piemçriem)
+Granta diagrammas:
+Task ------------------
+Task					^------------------------
+Tîklveida diagrammas "Critical path method":
+Virzîts grafs bez cikliem
+virsotnes ir uzdevumi ar norâdîto laiku
+ðíautnes ir saistîbas (dependecies)
+
+apreiíina kritisko ceïu (lielâko summuno sâkumu lidz beigam)
+var katram elementam apreiíinât atrâko sakuma un vçlçko sâkuma laiku.
+
+Datu plûsmu diagrammas (ar piemçriem)
+
+èetri elementi:
+riòíis - process ar nosaukumu (bieþi ar -ðana)
+taisnstûris - ârçja entitâte (external entity) ar nosaukumu (piem lietotâji ar veidu)
+lînijas ar bultiòu - informâcijas plûsma(data flow) ar nosaukumu (var savienot procesus ar jebko)
+divas paralelas taisnes - datu krâtuve (data store) ar nosaukumu =/= datubâze (superkopa datubâzei)
+
+0. 1. ... limeòi
+
+Programmatûras izstrâdes dzîves cikla modeïi (ar piemçriem)
+agile - scrum, velocity
+waterfall - v, b
+
+evolutinarie modeïi
+prototipçðanas modelis
+spirâles modelis
+unified process model
+
+Programmatûras konfigurâciju pârvaldîba (ar piemçriem)
+CVS, SVN, git
+
