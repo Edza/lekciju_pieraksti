@@ -369,4 +369,41 @@ un staff
 
 
 3.dabietilbības progranazēšana(effort estimation)
+function points
+
+Information Domain Values
+	Skaits
+	Svara factori(weighting factor) Vienkāršs Vidējs Sarežģīts
+Ārējais ievaddati (ext. inputs)
+Ārējas izvadati (ext. outputs)
+Ārēji vaicājumi (ext. inquiries)
+Iekšējas loģiskas datnes (internal logical files)
+Ārēju saskarņu (intefeisu) datņu ext. interface files
+
+kopsaits count total  = sum of skaits * svara factori
+FP = count total * (0.65 + 0.01 * sum of Fi )
+Fi(i pieder 1  .. 14): [0,1]
+pieeri factoriem:
+f1
+f4 vai performace ir kritiska 
+
+LOC lines of code
+
+LOC per FP	Vid Mediaana	Min 	Max
+c++			66	53			29		173
+java		63	53			77		-
+asambler	337 315			91		694
+
+30 % tolerance
+
+Kvalifikācijas darbā:
+pamatot ka iztrādātais produkts atbilst vismaz 3 personmēnešu darbietilbībai
+balstīties uz performace datiem pa vairākiem projectiem un kompānijām
+
+Putram - Norden - Rayleigh curve
+darbietilbība no kalendarrā laika
+Td - development time
+Fd - darbietilpība
+T0 - optimalais laiks = 2 * Td, tad F0 << Fd
+f(3/4 Td) minimālais
 
