@@ -407,3 +407,10 @@ Fd - darbietilpība
 T0 - optimalais laiks = 2 * Td, tad F0 << Fd
 f(3/4 Td) minimālais
 
+Prasības - requirements
+
+1993 Davis lietotāju vajadzības vai nepieciešamassitēmas pazīmes. funcjias vai atribūti, kuras var just no ārpuses.
+
+1994 Jones prasība ir lietotāju vajadzību konstatējums, kas izraisa sistēmas iztrādi
+
+1997 Somemerville, Sauyer - specifikāciju, kurā ir teikts, kas ir jāievieš. Tie ir apraksti, kā sistēmai jāuzvedas, kādas is sitēmas īpašibas un atribūti.
