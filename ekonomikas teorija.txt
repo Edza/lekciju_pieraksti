@@ -154,4 +154,38 @@ Patērētāja līdzsvars
 
 MUa/Pa = const n precēm, tad maksimālais derīgums
 
+Ražošana 
+FC - fixed cost
+VC - varing costs
 
+TC = FC + VC
+AVC = VC / Q
+TVC = VC / Q
+MC = dTC / dQ
+
+kad ATC ir min lūzuma punkts, ja P< luzuma punkt, turpina ražot bet cieš zaudējumus
+ja AVC min ir slēgšanas punkts, ja P< slēdz uznēmumu
+
+atkarībā no view
+	ekonomiskas
+	grāmatvedības
+
+	iekšējais ienākumi no paša iegūtajīem resursiem (altenatīvās izmaksas)
+	ārējais = grāmetvedības
+	
+īslaicīgais periods - ir konstanti lielumi un mainīga lielumi
+ilgstošais periods - visi lielumi ir mainīgi, uznēmums var nomainīt visus faktorus
+
+TR kopējie ienākumi
+
+grāmatvedības peļņa TR - TC(gramtvedības)
+ekonomiskā peļņa TR - TC(ekonomiskā)
+
+uzņēmuma konkurētspēja
+	efefiktivitāte
+	kvalitāte
+	jaunievedumi
+	klientu velmju apmierināšana
+
+Konkurences teorija (9.nodaļa)
+1.
