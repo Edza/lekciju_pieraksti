@@ -424,7 +424,7 @@ IEEE Standard Glosasary of Software Engenering Terminology
 
 Darījumprasības - buisness requirement (vīzijas vai tvēruma specifikācija)
 Lietotāju prasības (Use-cases)
-Functionālās prasības (Functional requirments) (programmastūras prasības specifikācija)
+Functionālās prasības (Functional requirements) (programmastūras prasības specifikācija)
 Sistēmas prasības -> functionālās prasības
 Lietotāju prasības -> kvalitātes atribūti, faktori. | Citas nefunctionālas prasības | Ierožobojumi (constraints) => functionālā specifikācija
 
@@ -446,3 +446,33 @@ Prasību specifikācija:
 a) pilnai (complete)
 b) nepretrunīga (consistent)
 c) modificējamai (modifiable)
+d) trasējamai (tracable)
+
+Prasību izstrāde un pārvaldība
+	requirements engenering
+	requirements management
+
+requirements engenering
+	requirements development
+		Elicitation - izzināšana
+		Analysis
+		Specification
+		Verification
+	requirements managment
+
+requirements development activities
+	noskaidrots lietotāju klases
+	izzināt klašu vajadzības
+	saprast lietotāju mērķus un uzdevumus, kā arī darījumu vajadzības
+	analizēt no lietotāju iegūts info sķirošana, funcinālās prasības, darījumkārtulas (buisness rules), kvalitātes atribūti, ieteiktie risinājumi, nevadzīga informācija.
+	sadalīt sistēmas prasības apakšsitēmās un daļu no tām "piešķirt" programatūras sistēmai.
+	saprast kvalitātes atribūtu relatīvo svarīgumu
+	vienoties par implmentēšnas prioritātēm
+	"pārtulkot" savāktās lietotāju vajadzības par rakstisku specifiskāciju un modeļiem
+	jāvienojas ar pasūtītāja par prasību specifikācijas akceptēšanu
+	
+requirements managment activities
+	apskatīti izmaiņu pieprasījumu
+	īstenot izmaiņas
+	aktualizēt projekta plānu
+	vienoties par jaunām
