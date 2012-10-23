@@ -414,3 +414,35 @@ Prasības - requirements
 1994 Jones prasība ir lietotāju vajadzību konstatējums, kas izraisa sistēmas iztrādi
 
 1997 Somemerville, Sauyer - specifikāciju, kurā ir teikts, kas ir jāievieš. Tie ir apraksti, kā sistēmai jāuzvedas, kādas is sitēmas īpašibas un atribūti.
+
+Prorammēšanas prasības - software requirments
+IEEE Standard Glosasary of Software Engenering Terminology
+
+1 Nosacījums (condition) vai spēja (capability) kurš nepieciešams lietotāju problēmas risināšanai vai mērķu sasniegšnai.
+2 Nosacījums vai spēja, kura var piemist sistēmai piemist ssitēmai vai sitēmas komponentei, lai izpildīti līgumu, standartu specifikāciju vai citu formāju obligātu dokumentu.
+3 Dokumentāta pirmajā vai otrā punktā formulēto nosacījumu vai spēju reperezentācija.
+
+Darījumprasības - buisness requirement (vīzijas vai tvēruma specifikācija)
+Lietotāju prasības (Use-cases)
+Functionālās prasības (Functional requirments) (programmastūras prasības specifikācija)
+Sistēmas prasības -> functionālās prasības
+Lietotāju prasības -> kvalitātes atribūti, faktori. | Citas nefunctionālas prasības | Ierožobojumi (constraints) => functionālā specifikācija
+
+feature - iezīme
+characteristic - raksturiezīme
+
+Prazīmju formulējua īpašība
+Katram prasību formulējumam vajadzētu būt:
+1) pilnam (complete)
+2) pareiza (correct)
+3) īstenojam (feasible)
+4) nepiecišamam (nesessary)
+5) priorizētam (prioritized)
+	3 līmeņi būtiski-essential, nosacīta-būtu labi ja būtu, iespējama-optional
+6) skaidram (unambiguous)
+7) verificējamam (verifiable)
+
+Prasību specifikācija:
+a) pilnai (complete)
+b) nepretrunīga (consistent)
+c) modificējamai (modifiable)
