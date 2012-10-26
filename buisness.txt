@@ -285,5 +285,24 @@ Portera piecu spēku modelis
 	aistājēji var vienlaikus konkurēt dažādos patērētāju pastāvīgo izdevumu sektoros
 	aizstājēipreču pieejamība nosaka cenu griestus uzņēmuma precei
 
+Stratēģiskās grupas nozarē.
+
+Tiek izveidots, izmantojot:
+	cenas
+	kvalitāti
+	apkalpojamo segmentu skaitu
+Tiek izvērtēts:
+	rentalibilitāttes līmenis
+	nopietns ienākšanas drauds no blakus grupas
+	dažādu grupu atšķirības
+
+Konlkurences izmaiņas nozares attīstības
+
+Nozares dzīves cikla modelis
+	veidošanās statdija
+	augšanas stadija
+	konkurences pastiprināšas stadija
+	brieduma stadija
+	samazināšanās stadija
 
 
