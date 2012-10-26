@@ -280,5 +280,10 @@ Portera piecu spēku modelis
 	likumdošana vai valdības darbība
 	represijas
 5. Aizstājējpreču radītie draudi.
+	faktiskā vai iespējamā viena produkta veida aizstāšana ar citu
+	esošais produkts var palikt par lieku
+	aistājēji var vienlaikus konkurēt dažādos patērētāju pastāvīgo izdevumu sektoros
+	aizstājēipreču pieejamība nosaka cenu griestus uzņēmuma precei
+
 
 
