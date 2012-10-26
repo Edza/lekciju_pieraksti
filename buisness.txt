@@ -248,3 +248,19 @@ būs patstāvīgais darbs jārada jaunu, vai jaanalizē esošo.
 organizācijas misija:
 ....
 organizācijas mērķi : SMART objectives (google that)
+
+----------------------------
+Portera piecu spēku modelis
+1. Konkurenses raksturs nozares ietvaros
+	nozares līderis
+	konkurentu skaits
+	fiksētās izmaksas
+	iziešanas barjēras
+	produktu diferencēšana
+	lēna attīstība
+2. Pircēju spēks;
+3. Piegādātāju spēks;
+4. jaunienācēju radītie draudi;
+5. Aizstājējpreču radītie draudi.
+
+

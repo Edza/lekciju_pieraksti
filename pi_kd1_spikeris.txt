@@ -1,62 +1,62 @@
-Programmatûras produkti un procesi
+ProgrammatÃ»ras produkti un procesi
 
 produkts: 
-programma: kods,izpildâmie faili
-dokumentâcija
-informâcija(lietotâjam)
+programma: kods,izpildÃ¢mie faili
+dokumentÃ¢cija
+informÃ¢cija(lietotÃ¢jam)
 
 process
-apakğprocess aktivitâte - activity
-apakğ(x2)process darbîba vai akcija - [action]
-apakğ(x3)process uzdevums - task
+apakÃ°process aktivitÃ¢te - activity
+apakÃ°(x2)process darbÃ®ba vai akcija - [action]
+apakÃ°(x3)process uzdevums - task
 
-Programmatûras projekta pârvaldîbas procesi
+ProgrammatÃ»ras projekta pÃ¢rvaldÃ®bas procesi
 
-dokumentçğana
-plânoğana
-konfigurâcija, pârvaldîba
-kvalitâtes pârbaude-QA
-mçrîğana
-formâlâs tehniskâs apskates
-risku pârvaldîba
+dokumentÃ§Ã°ana
+plÃ¢noÃ°ana
+konfigurÃ¢cija, pÃ¢rvaldÃ®ba
+kvalitÃ¢tes pÃ¢rbaude-QA
+mÃ§rÃ®Ã°ana
+formÃ¢lÃ¢s tehniskÃ¢s apskates
+risku pÃ¢rvaldÃ®ba
 
-Organizâciju un programmizstrâdes komandu tipi
+OrganizÃ¢ciju un programmizstrÃ¢des komandu tipi
+herahija cick liela mÄ“ra
 
+Projekta kalendÃ¢rÃ¢ ilguma un darbietilpÃ®bas prognozÃ§Ã°ana
+Constructive Cost Model (COCOMO) no funciju skaita un komands tipa dabÃ» estimate.
 
-Projekta kalendârâ ilguma un darbietilpîbas prognozçğana
-Constructive Cost Model (COCOMO) no funciju skaita un komands tipa dabû estimate.
-
-Tîkliskâ plânoğana un Ganta diagrammas (ar piemçriem)
+TÃ®kliskÃ¢ plÃ¢noÃ°ana un Ganta diagrammas (ar piemÃ§riem)
 Granta diagrammas:
 Task ------------------
 Task					^------------------------
-Tîklveida diagrammas "Critical path method":
-Virzîts grafs bez cikliem
-virsotnes ir uzdevumi ar norâdîto laiku
-ğíautnes ir saistîbas (dependecies)
+TÃ®klveida diagrammas "Critical path method":
+VirzÃ®ts grafs bez cikliem
+virsotnes ir uzdevumi ar norÃ¢dÃ®to laiku
+Ã°Ã­autnes ir saistÃ®bas (dependecies)
 
-apreiíina kritisko ceïu (lielâko summuno sâkumu lidz beigam)
-var katram elementam apreiíinât atrâko sakuma un vçlçko sâkuma laiku.
+apreiÃ­ina kritisko ceÃ¯u (lielÃ¢ko summuno sÃ¢kumu lidz beigam)
+var katram elementam apreiÃ­inÃ¢t atrÃ¢ko sakuma un vÃ§lÃ§ko sÃ¢kuma laiku.
 
-Datu plûsmu diagrammas (ar piemçriem)
+Datu plÃ»smu diagrammas (ar piemÃ§riem)
 
-èetri elementi:
-riòíis - process ar nosaukumu (bieşi ar -ğana)
-taisnstûris - ârçja entitâte (external entity) ar nosaukumu (piem lietotâji ar veidu)
-lînijas ar bultiòu - informâcijas plûsma(data flow) ar nosaukumu (var savienot procesus ar jebko)
-divas paralelas taisnes - datu krâtuve (data store) ar nosaukumu =/= datubâze (superkopa datubâzei)
+Ã¨etri elementi:
+riÃ²Ã­is - process ar nosaukumu (bieÃ¾i ar -Ã°ana)
+taisnstÃ»ris - Ã¢rÃ§ja entitÃ¢te (external entity) ar nosaukumu (piem lietotÃ¢ji ar veidu)
+lÃ®nijas ar bultiÃ²u - informÃ¢cijas plÃ»sma(data flow) ar nosaukumu (var savienot procesus ar jebko)
+divas paralelas taisnes - datu krÃ¢tuve (data store) ar nosaukumu =/= datubÃ¢ze (superkopa datubÃ¢zei)
 
-0. 1. ... limeòi
+0. 1. ... limeÃ²i
 
-Programmatûras izstrâdes dzîves cikla modeïi (ar piemçriem)
+ProgrammatÃ»ras izstrÃ¢des dzÃ®ves cikla modeÃ¯i (ar piemÃ§riem)
 agile - scrum, velocity
 waterfall - v, b
 
-evolutinarie modeïi
-prototipçğanas modelis
-spirâles modelis
+evolutinarie modeÃ¯i
+prototipÃ§Ã°anas modelis
+spirÃ¢les modelis
 unified process model
 
-Programmatûras konfigurâciju pârvaldîba (ar piemçriem)
+ProgrammatÃ»ras konfigurÃ¢ciju pÃ¢rvaldÃ®ba (ar piemÃ§riem)
 CVS, SVN, git
 
