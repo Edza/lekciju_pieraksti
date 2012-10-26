@@ -6,3 +6,8 @@ practical work:
 paperwork: description ~17-19 novemeber
 
 418 : im a teapot
+-----------------
+KD
+PHP OO
+PHP variables and scopes
+the way apache dispaches files

@@ -369,4 +369,110 @@ un staff
 
 
 3.dabietilbības progranazēšana(effort estimation)
+function points
 
+Information Domain Values
+	Skaits
+	Svara factori(weighting factor) Vienkāršs Vidējs Sarežģīts
+Ārējais ievaddati (ext. inputs)
+Ārējas izvadati (ext. outputs)
+Ārēji vaicājumi (ext. inquiries)
+Iekšējas loģiskas datnes (internal logical files)
+Ārēju saskarņu (intefeisu) datņu ext. interface files
+
+kopsaits count total  = sum of skaits * svara factori
+FP = count total * (0.65 + 0.01 * sum of Fi )
+Fi(i pieder 1  .. 14): [0,1]
+pieeri factoriem:
+f1
+f4 vai performace ir kritiska 
+
+LOC lines of code
+
+LOC per FP	Vid Mediaana	Min 	Max
+c++			66	53			29		173
+java		63	53			77		-
+asambler	337 315			91		694
+
+30 % tolerance
+
+Kvalifikācijas darbā:
+pamatot ka iztrādātais produkts atbilst vismaz 3 personmēnešu darbietilbībai
+balstīties uz performace datiem pa vairākiem projectiem un kompānijām
+
+Putram - Norden - Rayleigh curve
+darbietilbība no kalendarrā laika
+Td - development time
+Fd - darbietilpība
+T0 - optimalais laiks = 2 * Td, tad F0 << Fd
+f(3/4 Td) minimālais
+
+Prasības - requirements
+
+1993 Davis lietotāju vajadzības vai nepieciešamassitēmas pazīmes. funcjias vai atribūti, kuras var just no ārpuses.
+
+1994 Jones prasība ir lietotāju vajadzību konstatējums, kas izraisa sistēmas iztrādi
+
+1997 Somemerville, Sauyer - specifikāciju, kurā ir teikts, kas ir jāievieš. Tie ir apraksti, kā sistēmai jāuzvedas, kādas is sitēmas īpašibas un atribūti.
+
+Prorammēšanas prasības - software requirments
+IEEE Standard Glosasary of Software Engenering Terminology
+
+1 Nosacījums (condition) vai spēja (capability) kurš nepieciešams lietotāju problēmas risināšanai vai mērķu sasniegšnai.
+2 Nosacījums vai spēja, kura var piemist sistēmai piemist ssitēmai vai sitēmas komponentei, lai izpildīti līgumu, standartu specifikāciju vai citu formāju obligātu dokumentu.
+3 Dokumentāta pirmajā vai otrā punktā formulēto nosacījumu vai spēju reperezentācija.
+
+Darījumprasības - buisness requirement (vīzijas vai tvēruma specifikācija)
+Lietotāju prasības (Use-cases)
+Functionālās prasības (Functional requirements) (programmastūras prasības specifikācija)
+Sistēmas prasības -> functionālās prasības
+Lietotāju prasības -> kvalitātes atribūti, faktori. | Citas nefunctionālas prasības | Ierožobojumi (constraints) => functionālā specifikācija
+
+feature - iezīme
+characteristic - raksturiezīme
+
+Prazīmju formulējua īpašība
+Katram prasību formulējumam vajadzētu būt:
+1) pilnam (complete)
+2) pareiza (correct)
+3) īstenojam (feasible)
+4) nepiecišamam (nesessary)
+5) priorizētam (prioritized)
+	3 līmeņi būtiski-essential, nosacīta-būtu labi ja būtu, iespējama-optional
+6) skaidram (unambiguous)
+7) verificējamam (verifiable)
+
+Prasību specifikācija:
+a) pilnai (complete)
+b) nepretrunīga (consistent)
+c) modificējamai (modifiable)
+d) trasējamai (tracable)
+
+Prasību izstrāde un pārvaldība
+	requirements engenering
+	requirements management
+
+requirements engenering
+	requirements development
+		Elicitation - izzināšana
+		Analysis
+		Specification
+		Verification
+	requirements managment
+
+requirements development activities
+	noskaidrots lietotāju klases
+	izzināt klašu vajadzības
+	saprast lietotāju mērķus un uzdevumus, kā arī darījumu vajadzības
+	analizēt no lietotāju iegūts info sķirošana, funcinālās prasības, darījumkārtulas (buisness rules), kvalitātes atribūti, ieteiktie risinājumi, nevadzīga informācija.
+	sadalīt sistēmas prasības apakšsitēmās un daļu no tām "piešķirt" programatūras sistēmai.
+	saprast kvalitātes atribūtu relatīvo svarīgumu
+	vienoties par implmentēšnas prioritātēm
+	"pārtulkot" savāktās lietotāju vajadzības par rakstisku specifiskāciju un modeļiem
+	jāvienojas ar pasūtītāja par prasību specifikācijas akceptēšanu
+	
+requirements managment activities
+	apskatīti izmaiņu pieprasījumu
+	īstenot izmaiņas
+	aktualizēt projekta plānu
+	vienoties par jaunām
