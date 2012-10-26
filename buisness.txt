@@ -258,9 +258,27 @@ Portera piecu spēku modelis
 	iziešanas barjēras
 	produktu diferencēšana
 	lēna attīstība
-2. Pircēju spēks;
+2. Patērētāju spēks;
+	pircēju zināšanas
+	pirkuma lielums
+	preces funkcija
+	pircēju koncentrāšanās
+	nediferencētaā produkcija
+	pircēja ieiešana nozarē
 3. Piegādātāju spēks;
-4. jaunienācēju radītie draudi;
+	produkcija, kas svarīga pircējam
+	produkcija ar augstām nomaiņas izmaksām
+	augsta piegādātāju koncentrēšanās
+	piegādātāja spēja ieiet nozarē, kuru tas apgādā
+4. Jaunienācēju radītie draudi;
+	kapitāla nepieciešamība
+	ekonomija uz apjoma reiķina
+	produkta diferencēšana
+	klientu piesaistīšanas izmaksas
+	preču zīmes identitāte
+	pieeja izplatīšanas kanāliem
+	likumdošana vai valdības darbība
+	represijas
 5. Aizstājējpreču radītie draudi.
 
 
