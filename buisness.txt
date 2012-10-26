@@ -317,11 +317,19 @@ konkurences priekšrocība:
 priekšrocība, kura ir panākta ar t, ka patērētājiem tiekk piedāvāts augsvērtīgāks produkts, kura augstākā cena ir pamatota, vai arī izdevīgāks produkts, kuram ir neteikta zemāka cena.
 
 konkurences priekšrocību veidošana
-effektivitāte
-produkcijas kvalitāte
-jaunievedumi
-klientu vēlmju apmierināšana
-atšķirīgās prasmes
-resursi un spējas
-priekšrocības ilgspēja
+	effektivitāte
+	produkcijas kvalitāte
+	jaunievedumi
+	klientu vēlmju apmierināšana
+	atšķirīgās prasmes
+	resursi un spējas
+	priekšrocības ilgspēja
+
+ražošana un effektivitāte
+	ekonomija uz apjoma reiķina
+	mācīšanas effekts
+	pieredzes līkne
+	elastīga ražošana
+
+
 
