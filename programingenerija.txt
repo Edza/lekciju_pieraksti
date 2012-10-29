@@ -515,3 +515,15 @@ Novērtēšnas metodes:
 	Ekspertu vērtējums (DELPHI, PERT, Plānošanas pokers, vienas personas vērtējums)
 	Analoģiju bāzēti vērtējumi (Vērtējumus veic balstoties uz ļoti līdzīgu projektu datiem)
 
+COSMIC darbietilpības metode:
+	atbilst standartam ISO/IEC 19761:2003
+	publicēta 1999. gadā, pēdējā versija 2009. gadā
+	derīga: darījumlietotnēm(vussiness applications), reālā laika programmatūrai(real time software), hibrīdām lietotnēm
+	nederīga: ietver sarežģītas loģiskās sitēmas, sarežģitas matemātiskās funkcijas, skaņas un video apstrāde utt
+	viens CFP ir definēts, kā viena datu pūsma
+	1. solis: identificēt lietotājus (jebkas, kas izmanto programmu)
+	2. solis: identificēt funkcionālos procesus un trigerus (trigeris - kāds notikums)
+	3. solis: identificēt datu plūsmas (ievads (entry), izvads(exit), lasīšana(read), rakstīšana(write))
+	4. solis: CFP salīdzina ar benchmark testiem(aprēķina sadalījumus pa aktivitātēm - planing, analysis, building utt)
+	Benchmarking data - pabeigtu projektu dati(dati pieejami par maksu)
+
