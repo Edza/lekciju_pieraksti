@@ -476,3 +476,42 @@ requirements managment activities
 	īstenot izmaiņas
 	aktualizēt projekta plānu
 	vienoties par jaunām
+
+-------------------------------------------
+Darbietilpības prognozēšana (Effort estimation)
+
+Produktivitāte = Paveiktais darbs(software size)/Patērētie resursi(laiks)(Project effort)
+Prognozētā darbietilpība = Prognozētais darbs(estimated software size)/Iedomātā produktivitāte
+
+Darbietilpības prognozēšana:
+	novērtēšana - prognozē programmatūras produkta izstrādei nepieciešamo darba apjomu
+	novērtējumi - nepieciešami visu laiku:
+				pirms proj., uzsākšanas - lai novērtētu vai projekts īstenojums, piedalītos konkursos un plānotu budžetu
+				periodiski - lai nepieciešamības gadījumā pārdalītu resursus
+
+Veiksmīgs projekts:
+	vajadzīgā funkcionalitāte
+	norunātajā laikā piegādāts
+	par norunāto cenu
+	sasniegta prasītā kvalitāte
+
+Neprecizitātes iemesli:
+	prasības
+	projektējums
+	izstrāde
+	testēšana
+	ieviešana - liet akcepts
+	personāls - pieredze
+	tehnoloģijas - viena vai vairākas platformas
+
+Pieejas:
+	Bottom-up - darbu sadala nelielās aktivitātēs, veic darbietilpības novērtējumu katrai aktivitātei, sasumē visu (lieto kad nav pieredzes)
+	Top-down - novērtē visu darbu kopumā, zemāka līmeņa uzdevumiem kā daļa no kopējā (vajadzīga pieredze)
+
+Rindiņu skaitu NAV ieteicams izmantot darbietilpības noteikšanai
+
+Novērtēšnas metodes:
+	Algoritmiskie modeļi (lieto mat formulas, izmanto līdzīgu, pabeigtu pojektu datus, COCOMO 2, COSMIC utt.)
+	Ekspertu vērtējums (DELPHI, PERT, Plānošanas pokers, vienas personas vērtējums)
+	Analoģiju bāzēti vērtējumi (Vērtējumus veic balstoties uz ļoti līdzīgu projektu datiem)
+
