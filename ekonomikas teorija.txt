@@ -207,3 +207,30 @@ informēts par tirgu
 lielas barjeras
 Optimāli MR = MC
 
+Koncesija - privātā kapitāla piesaiste valsts funkciju veikšanai
+
+iespējams:
+veicimāt privātā kapitāla investīcijas tautsaimnēbā
+uzlabot pakalpojumu kvalitāte
+nodrošināt valsts resursu un līdzekļu racionālāku izmantošanu
+nepalielina ārējo parādu
+
+koncesijā nodod objektus kurus neprivatizēs un vajadzīgi lieli kapitālieguldījumi.
+
+uzdevumi:
+apskatīties stratēģiju
+
+izpētīt kādu valsti:
+10 gadiem(2001-2011)
+reālā iekšzemnes koprodukta tempi
+bezdarba līmenis
+inflācijas temps
+
+Iekšzemes kopprudukts
+Gross Domestic Produckt noteiktas valsts ekonomiskajā terotorijā tās rezidentu vienību gada laikā saražotais un pārdotais galaprodukts tirgus cenās (apreiķināts naudas izteiksmē)
+
+IKP = C + G +Ig + Xn
+C patēriņš
+Ig kopējās privātās investīcijas =amortozacijas + In tīras investīcijas + citi
+G valdības izdevumi
+Xn = exports - imports
