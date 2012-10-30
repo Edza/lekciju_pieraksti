@@ -566,4 +566,43 @@ interoperability - sadarbspēja
 
 ISO 9126
 
-mērīšana
+Functionality
+	suitability - noderība
+	accuracy - precizitāte
+	interoperability - sadarbspēja
+	complience - saskaņotība
+	security - drošība
+Reliability - uzticamība
+	maturity - briedums
+	fault-tollerance - deffektpiecietība
+	recovebility - atkopšana
+Usability - lietojamība
+	understandability - saprotamība
+	learnability - apmācāmība
+	operability - darbināmība
+Effinciency - efektivitāte
+	time behaviour - "laika izmantošna"
+	resouce behaviour - "citu resursu izmantošna"
+Maintainability - uzturamība
+	analysability - analizējamība
+	changability - maināmījamība
+	stability - stabilitāte
+	testability - testējamība
+Portability - pārnesamība
+	adaptability - adaptējamība
+	installability - instalējamība
+	conformance - atbilstība
+	replaceability - aizvietojamība
+
+Tiesības un pienākumi
+pasūtīju tiesības:
+1.  Analītiķis runās pasūtītāja valodā (abas iedomātās)
+2.  Analītiķis apgūst organizācijas darījums (buisness) un sistēmas mērķus.
+3.  Analītiķis fiksēs prasību ievākšanas procesā iegūto informācijā prasību specifikācijā.
+4.  Saņemt no izstrādātājiem skaidrojumu par prasību vākšanas rezultātiem.
+5.  Un cieņu un profesionālu attieksmi.
+6.  Sagaidīt no izstrādātājiem idejas un alternatīvus priekšlikumus.
+7.  Sagaidīt tādas produkta īpašibas, kas padarīs lietošanu ērtu un patīkamu.
+8.  Sagaidīt iespēju produkta atkalizmantošanai.
+9.  Būt nodrošinātam pret negodīgu izmaksu un iekmes novērtējumu.
+10. 
