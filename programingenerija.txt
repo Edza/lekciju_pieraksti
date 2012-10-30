@@ -527,3 +527,43 @@ COSMIC darbietilpības metode:
 	4. solis: CFP salīdzina ar benchmark testiem(aprēķina sadalījumus pa aktivitātēm - planing, analysis, building utt)
 	Benchmarking data - pabeigtu projektu dati(dati pieejami par maksu)
 
+-----------------------------------------
+Prasības requirements
+R Wiegers
+PR specifikācija
+	funckcionālās prasības
+	kvalitātes atribūti
+	citas nefunctionālās prasības
+	ierogežojumi (constraints)
+
+1987. HP
+FURPS - functionality, usability(lietojamība), reliability(uzticimība), performance (veikspēja), suportability (atbaltāmība)
+
+1977 McCall + Richards + Walters
+McCall'a kvalitātes faktori 
+
+Product operation - product revision - product transsion
+
+Product operation:
+correctness - pareizība
+reliability - uzticamība
+usability - lietojamība
+integrity - integrutāte (security - drošība(nelaiž iekšā sliktas lietas))
+effinciency - efektivitāte
+
+safety - nebīstamība(nav bīstama citiem)
+effectiveness - rezultativitātē
+
+product revision:
+maintainability - uzturamība
+flexibility - pielāgojamība
+testability - testējamība
+
+product transsion:
+portability - pārnesamība
+reusability - atkalizmantojamība
+interoperability - sadarbspēja
+
+ISO 9126
+
+mērīšana
