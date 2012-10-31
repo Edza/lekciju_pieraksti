@@ -1,4 +1,4 @@
-konsultacijas:
+﻿konsultacijas:
 Primdienās 1630 - 1800
 Zeļļu iela 8, 124 kab.
 
@@ -29,3 +29,7 @@ a1+a2+...+am = sigma(k[1..+inf])_ak
 
 pirmo n summa sauc par parciālsummu.
 
+18.aud
+17.20
+7novembris
+KD1 pārrakstīšana
