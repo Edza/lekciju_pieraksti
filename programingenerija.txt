@@ -605,4 +605,18 @@ pasūtīju tiesības:
 7.  Sagaidīt tādas produkta īpašibas, kas padarīs lietošanu ērtu un patīkamu.
 8.  Sagaidīt iespēju produkta atkalizmantošanai.
 9.  Būt nodrošinātam pret negodīgu izmaksu un iekmes novērtējumu.
-10. 
+10. Saņemt produktu, kas apmierina akceptētās parakstītās funkcionālās un kvalitātes prasības.
+
+pasūtīju pienākumi:
+1.  Izglītot analītiķus savā darījuma svērā un definēt svēras profesionālo žargonu.
+2.  Veltīt pietiekamu laiku prasību izklāstīšanai, precizēšanai un atjaunināšanai.
+3.  Būt konkrētam un precīzam prasību izskaidrošanai.
+4.  Savlaicīgi pieņem lēmumus par izmaiņām.
+5.  Respektēt izstrādātāja veikto darbietilpības izmaksu prognozi.
+6.  Noteikt prasību, funkciju un lietošana piemēru (use cases) prioritātes.
+7.  Veikt prasību dokumentācijas un prototipu apskates (reviews).
+8.  Izmainīt par projekta prasību iespējami savlaicīgi.
+9.  Piesakot izmaiņu pieprasījumus ievērot projekta vadlīnijas.
+10. Respektēt izstrādātāja prasību inženierijas procesus.
+
+
