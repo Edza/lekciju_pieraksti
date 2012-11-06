@@ -619,4 +619,39 @@ pasūtīju pienākumi:
 9.  Piesakot izmaiņu pieprasījumus ievērot projekta vadlīnijas.
 10. Respektēt izstrādātāja prasību inženierijas procesus.
 
+prasību inženierijas labā prakse
 
+f(noderīgums(h/m/l) rows, sarežģītiba(h/m/l) cols)=
+  h m l
+h 1 2 3
+m 8 9 4
+l 7 6 5
+
+5- tuksš
+1- definēt prasību realizācijas procedūru
+	plānus izstrādāt balstoties uz dokumentātām prasībām
+	pārrunāt saitības (commitment)
+2- identificēt lietošanas piemērus (scenāriji)
+	definēt kvalitātes atribūtus
+	pielātot PPS sagatavi
+	nodibināt izmaiņu vadības padomi (IVP)
+	pārbaudīt (check) prasību dokumentus
+3- vingrināt, apmācīt izstrādātājus lietojumprogrammatūras jomā.
+	uzrakstīt vīziju un tvērumu (scope) (max 1 A4 lapa)
+	idenificēt lietotāju grupas
+	uzzīmēt konteksta diagrammu
+	identificēt prasību avotus
+	apzīmēt katru prasību, piešķirt identifikātoru
+	nodibināt bāzlīniju un veikt prasību dokumenta versiju vadību
+4- izveidot "zināšanu krājumu"
+	izvēlējēties produkta "čempionus" (champions)
+	izvedot datu vārdnīcu (data dictionary)
+	novērot un fiksēt darījumkārtulas (buisness rules)
+	izstrādat prasībām atbilstošus testpiemērus (test cases)
+	sekot prasību statusam
+9- Vingrināt, mācīt prasību analītiķus
+	nodibināt fokusa grupas
+	izstrādāt prototipus
+	analizēt iespējamību (feasibility)
+	definēt pieņemšanas(acceptence) kritērijus
+	
