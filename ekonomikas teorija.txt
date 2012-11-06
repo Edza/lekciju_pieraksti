@@ -234,3 +234,37 @@ C patēriņš
 Ig kopējās privātās investīcijas =amortozacijas + In tīras investīcijas + citi
 G valdības izdevumi
 Xn = exports - imports
+
+----------------------------------------
+
+		Cenu indekss
+
+Rādītājs, kas atspoguļo noteiktu galapreču un pakalpojumu atlases kopumu(tirgus groza) cenu izmaiņas pārskata periodā pret analoģisku tirgus groza cenu bāzes pārskatā.
+
+PCI(patēriņu cenu indekss) =(Patēriņu cenu grozs pārskata periodā / bāzes gadu) * 100
+
+Uz doto brīdi 2012 gadā grozā ir 491 preces.
+
+IKPcenu indekss jeb IKP deflators = parskata gada nominālais IKP/pārskata gada reālais IKP * 100
+
+Reālais IKP = Pārskata gada nominālais IKP/ Pārskata gada IKP deflators * 100
+
+
+	Kas ir ekonomikas attīstība un izaugsme?
+
+ekonomikas attīstība - strukturālās un kvalitatīvās izmaiņas ekonomikā saskaņā ar tehnoloģiskā un soceālā progresa prasībām
+
+ekonomikas izaugsme - process, kas nodrošina iespēkas palielin;at preči un pakalpojumu ražošanu valsti, fiziskā, cilvēciskā un dabas kapitāla kvantitatīvu pieaugumu.(raskturo IKP pieauguma temps, reāla IKP pieaugums uz 1 iedz, īstenā uzkrājuma norma)
+
+Reālā IKP pastāvīgais pieaugums uz vienu iedzīvotāju ilgstošā periodā - lieto lai salīdzinātu dzīves līmeni iekšzemē uz dažādos reģionos.
+ikgadējā iedz pieauguma tems>reālā IKP pieaugums = reālais IKP uz 1 iedzīvotāju krīt un otrādi
+
+Pirktspējas paritātes standarts raksturo iekšezmes kopprodukta līmeni, kas novērtēts vienotā valūtā valstu grupai, kas piedalās aprēķinos izslēdzot cenu svārstības
+
+īstenā uzkrājuma norma - aprēķina sumējot (saražotā kapitāla pieaugums + dabas kapitāla pieaugums + cilvēciskā kapitāla peiaugums) / NKI * 100
+Lieto, lai noteiktu ekonomikas ilgtspējīgu attīstību. (samazinās izsmeļot dabas resursus un piesārņojuma bīstamību, palielina ar summu, ko iegulda veselības parūpē un izglītībā)
+
+Ekonomikas izaugsme - ekstensīvā veidā(iesaistot ražošanā papildus resursus) intensīvā veidā (efektīvi izmantojot resursus un jaunas tehnoloģijas)
+
+Lielumu 70 lieto, lai noteiktu to, pēc cik gadiem dubultosies dzīves līmenis gadi = 70 / Ekonomikas izaugsmes temps
+Skaitlis 70 saistīts ar cilvēku vecumu
