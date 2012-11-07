@@ -654,4 +654,14 @@ l 7 6 5
 	izstrādāt prototipus
 	analizēt iespējamību (feasibility)
 	definēt pieņemšanas(acceptence) kritērijus
-	
+-------------------------------------------
+Datu bāze:
+ER konceptuālais models
+ER realizācija
+Tabulas preojektējums
+
+PPS
+ prasības
+ DPD
+
+funckiju saraksts, grupēšana
