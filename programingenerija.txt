@@ -654,6 +654,17 @@ l 7 6 5
 	izstrādāt prototipus
 	analizēt iespējamību (feasibility)
 	definēt pieņemšanas(acceptence) kritērijus
+	veikt izmaiņu ietekmes analīzes
+	izsekot (trasēt) katrai izmaiņai līdz visiem ietkmētiem darba produktiem (work produkts)
+8- Izglītot lietotājus un vadītājus par prasībām
+	modelēt prasības
+	veikt prasību risku pārvaldību
+	izmantot risku pārvaldības rīkus
+	izveidot prasību trasējamības matrica REL(Prasība,Programmas moduļi)
+7- Organizēt kopsanāksmes (Joint Application Development Sessions)
+	atkalizmantot prasības (reuse)
+	lietot kvalittes funkciju izvēršanas pieeju (Quality Functions Deployment)
+	mērīt prasību stabilitāti (nomainītās prasības/visas prasības)
 -------------------------------------------
 Datu bāze:
 ER konceptuālais models
