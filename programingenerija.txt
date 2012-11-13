@@ -665,6 +665,11 @@ l 7 6 5
 	atkalizmantot prasības (reuse)
 	lietot kvalittes funkciju izvēršanas pieeju (Quality Functions Deployment)
 	mērīt prasību stabilitāti (nomainītās prasības/visas prasības)
+6- Analizēt lietotāju darba plūsmu (workflow)
+	Pētīt problēmu ziņojumus (report) 20:80 princips
+	Uzrakstīt lietotāja rokasgrāmatu (User manual)
+	Uzturēt prasību vēsturi
+	Dokumentēt pasību darbietilpību
 -------------------------------------------
 Datu bāze:
 ER konceptuālais models
@@ -676,3 +681,24 @@ PPS
  DPD
 
 funckiju saraksts, grupēšana
+----------------------------------------------
+Iespējamības analīze (feasibility analysis)
+ekonomiskā iespējamība
+	vai ar produktu saistītie ieguvumi ir atklāti dokumentāti?
+	vai ieguvumi izteikti naudā?
+	vai iecerētā konfigurācija ir izdevīgākais risinājums?
+	kādi ir izmaksu un laikplāna(schedule) riski?
+tehniskā iespējamība
+	vai visi konfigurācijas elementi ir saprotami?
+	vai konfigurācija ir izstrādājama noteiktās un noteiktā laika ietvaros?
+	vai katram elementam eksistē aatiecīga tehnoloģija?
+	vai sistēma balstīsies uz nobriedušām tehnoloģijām?
+	vai visas saskarnes ir skaidri definētas? (interfaces to external systems)
+	vai funkcijas un veitkspēja(performance) ir īstenojamas?
+	vai eksistē nepiecišamie resursi?
+	kādi ir tehniskie riski?
+	vai visiem elemntiem iespējams kvalitātēs nodrošināšana (QA)?
+ 	vai mašīnas-mašinas un cilvēka-mašinas saskarnes veidotas saprātīgi (inteligent manner)?
+juridiskā iespējamība
+	vai konfigurācijas nerada tiesku atbildību?
+	vai īpašumtiesibas() nav skartas?
