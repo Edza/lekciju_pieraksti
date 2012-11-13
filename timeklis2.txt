@@ -11,3 +11,7 @@ KD
 PHP OO
 PHP variables and scopes
 the way apache dispaches files
+-----------------------
+useful CSS+JS package:
+http://twitter.github.com/bootstrap/
+
