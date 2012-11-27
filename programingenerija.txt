@@ -702,3 +702,26 @@ tehniskā iespējamība
 juridiskā iespējamība
 	vai konfigurācijas nerada tiesku atbildību?
 	vai īpašumtiesibas() nav skartas?
+
+Kvalitātes nodrošināšana Quality Assurance
+
+Quality management - kvalitātes pārvaldība (subj. ~saistītās ar cilvēkiem)
+? Quality control - kvalitātes vadība (samazināt (starp)produktu atšķirības, defektus)
+Quality assurance - kvalitātes nodrošināšana
+
+assurance
+	kā panākt ka produkts ir kvalitatīvs
+	kā apliecināt ka daram visu saprātīgi nepieciešamo kvalitātes sasniegšanai
+
+kvalitātes pārvaldība:
+	1. kvalitās pārvaldības pieeja (approach) ~ ISO 9001
+	2. rezultatatīva (effective) programminženierijas tehnoloģija (metodes un rīkus)
+	3. formālās tehniskās apskates (formal tehical reviews - FTR)
+	4. daudzkārtējas (multitiered) testēšanas stratēģija
+	5. programmatūras dokumnetācijas un tās izmaiņu vadību. (change control)
+	? 6. procedūra, kas panāk atbilstību programistrādes standartiem, ja piemērojams.
+	7. mērīšanas un ziņošanas (reporting) mehānismi
+
+kvalitātes sistēma
+ISO 9001 īsuma:
+	Visi netriviālie procesi ir definēti un apstiprināti.
