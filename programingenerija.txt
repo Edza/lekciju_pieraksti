@@ -724,4 +724,37 @@ kvalitātes pārvaldība:
 
 kvalitātes sistēma
 ISO 9001 īsuma:
-	Visi netriviālie procesi ir definēti un apstiprināti.
+	Visi netriviālie procesi ir dokumnetēti un apstiprināti.
+	Jābūt īpašiem procesiem, kas uzrauga, koriģē pirmos. (controlls-vadīklas/kontroles)
+	Ikvienam darbiniekam savas konpetences ietvarā jāpārzina procesi un jārīkojas sakaņā ar tiem.
+
+FTR:
+Formal - ar definētu procededūru un definētu rezultātu
+Tehnical - sanāksmē piedalās tikai profesionāļi, izstrādātāji
+Review - sanāksme no vismaz 2/3-5, lai izvētēta produkta atbilstību prasībām.
+
+piedalās
+	izstrādātājs
+	apskates vadītājs
+	(peer) pieredzējis tā paša objekta izstrādātāju
+	kādi no pārbaudāmā objekta turmākajiem izmantotājiem
+	protokulētājs
+
+apskates vadītājs izsūta pārbaudāmo objektu grupas locekļiem, un sakaņo sanāksmes laiku un vietu.
+	2 nedēļu atstarpe
+	objektam nav jābūt pārāk lielam (2h review vērtam)
+
+vai bija pietiekami laika lai apskatītu?
+	max 20min izstrādātājam skaidrot un rādīt
+	pludina kopā (merge) visus defektu sarakstus un iegūst problēmu kopsarakstu.
+
+review report:
+	kas piedalījās
+	ko apskatija (identifikācija)
+	ko nolēma (
+		apstiprināt bez iebildumiem
+		apstiprināt ar piezīmēm (ne ilgāk kā 2 nedēļas lai salabotu un tad apstiprina apskates vadītājs)
+		noraidīt (nevar defektus novērt 2 nedēļās)
+		)
+
+
