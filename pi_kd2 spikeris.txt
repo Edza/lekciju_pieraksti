@@ -48,6 +48,9 @@ Virzīts grafs bez cikliem
 virsotnes ir uzdevumi ar norādīto laiku
 šķautnes ir saistības (dependecies)
 
+apreiķina kritisko ceļu (lielāko summuno sākumu lidz beigam)
+var katram elementam apreiķināt atrāko sakuma un vēlēko sākuma laiku.
+
 Datu plūsmu diagrammas (ar piemēriem): 12
 
 četri elementi:
