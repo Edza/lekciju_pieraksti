@@ -17,7 +17,10 @@ risku pārvaldība
 
 Organizāciju un programmizstrādes komandu tipi : 8
 
-Herarhija, brīvu cilvēku kompānija, PRICE
+Herarhija, brīvu cilvēku kompānija, PRICE (projects in controlled enviroments)
+
+PRINCE: projekta valde,projekta pārvaldinieks, komandas pārvaldnieki
+PM, team leads
 
 Projekta kalendārā ilguma un darbietilpības prognozēšana: 4
 COSMIC
@@ -56,6 +59,12 @@ prototipēšanas modeļi
 spirāles modelis
 
 Programmatūras konfigurāciju pārvaldība (ar piemēriem): 10
+SCI - konfuguracijas vienumi
+unikāli identifikatori : UID
+versijas
+
+baseline-bāzlīnija
+
 CVS, git, SVN
 repozitorijs
 ------ jauni---------------------------------------------------------
@@ -109,8 +118,6 @@ Trasējamība: 6
 spēja izsakot cuar abu veidu saitēm
 evolūcijas saites: stingras, saista A-B,ja A veidots balstoties uz B, izmaiņas vienā dod imaiņas otrā
 notikumu saites: vājas, kas A satur norādi uz B kautkur pierakstos
-
-unikāli identifikatori : UID
 
 Prasību inženierijas labā prakse: 7
 
