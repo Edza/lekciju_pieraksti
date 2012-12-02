@@ -4,15 +4,31 @@ Programmatūras projekta pārvaldības procesi: 2
 
 Organizāciju un programmizstrādes komandu tipi : 8
 
+Herarhija, brīvu cilvēku kompānija
+
 Projekta kalendārā ilguma un darbietilpības prognozēšana: 4
+COSMIC
+
+COCOMO
+KLOC - planotais kodu rindu skaits
+Effort E = a_b (KLOC) b_b= [cilvekmeneshi]
+Development Time D = c_b * E * d_c = [meneshi]
+People required P = E / D 
 
 Tīkliskā plānošana un Ganta diagrammas (ar piemēriem): 3
 
 Datu plūsmu diagrammas (ar piemēriem): 12
 
+četri elementi:
+riņķis - process ar nosaukumu (bieži ar -šana)
+taisnstūris - ārēja entitāte (external entity) ar nosaukumu (piem lietotāji ar veidu)
+līnijas ar bultiņu - informācijas plūsma(data flow) ar nosaukumu (var savienot procesus ar jebko)
+divas paralelas taisnes - datu krātuve (data store) ar nosaukumu =/= datubāze (superkopa datubāzei)
+
 Programmatūras izstrādes dzīves cikla modeļi (ar piemēriem): 2
 
 Programmatūras konfigurāciju pārvaldība (ar piemēriem): 10
+
 ------ jauni---
 Programmatūras prasības: 6
 
@@ -22,10 +38,86 @@ Trasējamība: 6
 
 Prasību inženierijas labā prakse: 7
 
+f(noderīgums(h/m/l) rows, sarežģītiba(h/m/l) cols)=
+  h m l
+h 1 2 3
+m 8 9 4
+l 7 6 5
+
+5- tuksš
+1- definēt prasību realizācijas procedūru
+	plānus izstrādāt balstoties uz dokumentātām prasībām
+	pārrunāt saitības (commitment)
+2- identificēt lietošanas piemērus (scenāriji)
+	definēt kvalitātes atribūtus
+	pielātot PPS sagatavi
+	nodibināt izmaiņu vadības padomi (IVP)
+	pārbaudīt (check) prasību dokumentus
+3- vingrināt, apmācīt izstrādātājus lietojumprogrammatūras jomā.
+	uzrakstīt vīziju un tvērumu (scope) (max 1 A4 lapa)
+	idenificēt lietotāju grupas
+	uzzīmēt konteksta diagrammu
+	identificēt prasību avotus
+	apzīmēt katru prasību, piešķirt identifikātoru
+	nodibināt bāzlīniju un veikt prasību dokumenta versiju vadību
+4- izveidot "zināšanu krājumu"
+	izvēlējēties produkta "čempionus" (champions)
+	izvedot datu vārdnīcu (data dictionary)
+	novērot un fiksēt darījumkārtulas (buisness rules)
+	izstrādat prasībām atbilstošus testpiemērus (test cases)
+	sekot prasību statusam
+9- Vingrināt, mācīt prasību analītiķus
+	nodibināt fokusa grupas
+	izstrādāt prototipus
+	analizēt iespējamību (feasibility)
+	definēt pieņemšanas(acceptence) kritērijus
+	veikt izmaiņu ietekmes analīzes
+	izsekot (trasēt) katrai izmaiņai līdz visiem ietkmētiem darba produktiem (work produkts)
+8- Izglītot lietotājus un vadītājus par prasībām
+	modelēt prasības
+	veikt prasību risku pārvaldību
+	izmantot risku pārvaldības rīkus
+	izveidot prasību trasējamības matrica REL(Prasība,Programmas moduļi)
+7- Organizēt kopsanāksmes (Joint Application Development Sessions)
+	atkalizmantot prasības (reuse)
+	lietot kvalittes funkciju izvēršanas pieeju (Quality Functions Deployment)
+	mērīt prasību stabilitāti (nomainītās prasības/visas prasības)
+6- Analizēt lietotāju darba plūsmu (workflow)
+	Pētīt problēmu ziņojumus (report) 20:80 princips
+	Uzrakstīt lietotāja rokasgrāmatu (User manual)
+	Uzturēt prasību vēsturi
+	Dokumentēt pasību darbietilpību
+
 Kvalitātes nodrošināšana: 9
+
+kvalitātes sistēma
+ISO 9001 īsuma:
+	Visi netriviālie procesi ir dokumnetēti un apstiprināti.
+	Jābūt īpašiem procesiem, kas uzrauga, koriģē pirmos. (controlls-vadīklas/kontroles)
+	Ikvienam darbiniekam savas konpetences ietvarā jāpārzina procesi un jārīkojas sakaņā ar tiem.
 
 Prasību un prasību specifikācijas raksturlielumi (īpašības)
 
 Iespējamības (feasibility) analīze: 7
+
+ekonomiskā iespējamība
+	vai ar produktu saistītie ieguvumi ir atklāti dokumentāti?
+	vai ieguvumi izteikti naudā?
+	vai iecerētā konfigurācija ir izdevīgākais risinājums?
+	kādi ir izmaksu un laikplāna(schedule) riski?
+tehniskā iespējamība
+	vai visi konfigurācijas elementi ir saprotami?
+	vai konfigurācija ir izstrādājama noteiktās un noteiktā laika ietvaros?
+	vai katram elementam eksistē aatiecīga tehnoloģija?
+	vai sistēma balstīsies uz nobriedušām tehnoloģijām?
+	vai visas saskarnes ir skaidri definētas? (interfaces to external systems)
+	vai funkcijas un veitkspēja(performance) ir īstenojamas?
+	vai eksistē nepiecišamie resursi?
+	kādi ir tehniskie riski?
+	vai visiem elemntiem iespējams kvalitātēs nodrošināšana (QA)?
+ 	vai mašīnas-mašinas un cilvēka-mašinas saskarnes veidotas saprātīgi (inteligent manner)?
+juridiskā iespējamība
+	vai konfigurācijas nerada tiesku atbildību?
+	vai īpašumtiesibas() nav skartas?
 
 Ekonomiskā lietderība, tehniskā realizējamība, tiesiskais pamatojums.: 7
