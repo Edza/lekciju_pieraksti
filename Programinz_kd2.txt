@@ -14,7 +14,7 @@ Programmatūras izstrādes dzīves cikla modeļi (ar piemēriem): 2
 
 Programmatūras konfigurāciju pārvaldība (ar piemēriem): 10
 ------ jauni---
-Programmatūras prasības
+Programmatūras prasības: 6
 
 Kvalitātes atribūti: 6
 
@@ -26,6 +26,6 @@ Kvalitātes nodrošināšana: 9
 
 Prasību un prasību specifikācijas raksturlielumi (īpašības)
 
-Iespējamības (feasibility) analīze
+Iespējamības (feasibility) analīze: 7
 
-Ekonomiskā lietderība, tehniskā realizējamība, tiesiskais pamatojums.
+Ekonomiskā lietderība, tehniskā realizējamība, tiesiskais pamatojums.: 7
