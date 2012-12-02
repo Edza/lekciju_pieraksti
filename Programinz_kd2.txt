@@ -16,13 +16,13 @@ Programmatūras konfigurāciju pārvaldība (ar piemēriem): 10
 ------ jauni---
 Programmatūras prasības
 
-Kvalitātes atribūti
+Kvalitātes atribūti: 6
 
-Trasējamība
+Trasējamība: 6
 
-Prasību inženierijas labā prakse
+Prasību inženierijas labā prakse: 7
 
-Kvalitātes nodrošināšana
+Kvalitātes nodrošināšana: 9
 
 Prasību un prasību specifikācijas raksturlielumi (īpašības)
 
