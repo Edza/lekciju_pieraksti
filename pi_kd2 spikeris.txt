@@ -27,7 +27,7 @@ Organizāciju un programmizstrādes komandu tipi : 8
 Herarhija, brīvu cilvēku kompānija, PRICE (projects in controlled enviroments)
 
 PRINCE: projekta valde,projekta pārvaldinieks, komandas pārvaldnieki
-PM, team leads
+PM, team leads, support activities
 
 Projekta kalendārā ilguma un darbietilpības prognozēšana: 4
 COSMIC
