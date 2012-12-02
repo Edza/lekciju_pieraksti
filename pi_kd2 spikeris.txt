@@ -34,8 +34,8 @@ COSMIC
 
 COCOMO
 KLOC - planotais kodu rindu skaits
-Effort E = a_b (KLOC) b_b= [cilvekmeneshi]
-Development Time D = c_b * E * d_c = [meneshi]
+Effort E = a_b * (KLOC) ^ b_b= [cilvekmeneshi]
+Development Time D = c_b * E ^ d_b = [meneshi]
 People required P = E / D 
 
 Tīkliskā plānošana un Ganta diagrammas (ar piemēriem): 3
