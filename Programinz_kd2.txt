@@ -1,19 +1,19 @@
-﻿Programmatūras produkti un procesi
+﻿Programmatūras produkti un procesi: 1
 
-Programmatūras projekta pārvaldības procesi
+Programmatūras projekta pārvaldības procesi: 2
 
-Organizāciju un programmizstrādes komandu tipi
+Organizāciju un programmizstrādes komandu tipi : 8
 
-Projekta kalendārā ilguma un darbietilpības prognozēšana
+Projekta kalendārā ilguma un darbietilpības prognozēšana: 4
 
-Tīkliskā plānošana un Ganta diagrammas (ar piemēriem)
+Tīkliskā plānošana un Ganta diagrammas (ar piemēriem): 3
 
-Datu plūsmu diagrammas (ar piemēriem)
+Datu plūsmu diagrammas (ar piemēriem): 12
 
-Programmatūras izstrādes dzīves cikla modeļi (ar piemēriem)
+Programmatūras izstrādes dzīves cikla modeļi (ar piemēriem): 2
 
-Programmatūras konfigurāciju pārvaldība (ar piemēriem)
-
+Programmatūras konfigurāciju pārvaldība (ar piemēriem): 10
+------ jauni---
 Programmatūras prasības
 
 Kvalitātes atribūti
