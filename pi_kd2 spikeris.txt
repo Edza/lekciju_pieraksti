@@ -65,6 +65,12 @@ Kvalitātes atribūti: 6
 
 Trasējamība: 6
 
+spēja izsakot cuar abu veidu saitēm
+evolūcijas saites: stingras, saista A-B,ja A veidots balstoties uz B, izmaiņas vienā dod imaiņas otrā
+notikumu saites: vājas, kas A satur norādi uz B kautkur pierakstos
+
+unikāli identifikatori : UID
+
 Prasību inženierijas labā prakse: 7
 
 f(noderīgums(h/m/l) rows, sarežģītiba(h/m/l) cols)=
