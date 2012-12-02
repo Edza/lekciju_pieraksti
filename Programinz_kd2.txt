@@ -1,0 +1,31 @@
+﻿Programmatūras produkti un procesi
+
+Programmatūras projekta pārvaldības procesi
+
+Organizāciju un programmizstrādes komandu tipi
+
+Projekta kalendārā ilguma un darbietilpības prognozēšana
+
+Tīkliskā plānošana un Ganta diagrammas (ar piemēriem)
+
+Datu plūsmu diagrammas (ar piemēriem)
+
+Programmatūras izstrādes dzīves cikla modeļi (ar piemēriem)
+
+Programmatūras konfigurāciju pārvaldība (ar piemēriem)
+
+Programmatūras prasības
+
+Kvalitātes atribūti
+
+Trasējamība
+
+Prasību inženierijas labā prakse
+
+Kvalitātes nodrošināšana
+
+Prasību un prasību specifikācijas raksturlielumi (īpašības)
+
+Iespējamības (feasibility) analīze
+
+Ekonomiskā lietderība, tehniskā realizējamība, tiesiskais pamatojums.

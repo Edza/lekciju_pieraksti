@@ -1,15 +1,15 @@
-Programmatûras produkti un procesi-------------------------------------------------- 1
+ï»¿ProgrammatÅ«ras produkti un procesi-------------------------------------------------- 1
 
-Programmatûras projekta pârvaldîbas procesi--------------------------------------- 2
+ProgrammatÅ«ras projekta pÄrvaldÄ«bas procesi--------------------------------------- 2
 
-Organizâciju un programmizstrâdes komandu tipi-------------------------------------- 8
+OrganizÄciju un programmizstrÄdes komandu tipi-------------------------------------- 8
 
-Projekta kalendârâ ilguma un darbietilpîbas prognozçğana -------------------------------- 4
+Projekta kalendÄrÄ ilguma un darbietilpÄ«bas prognozÄ“Å¡ana -------------------------------- 4
 
-Tîkliskâ plânoğana un Ganta diagrammas (ar piemçriem) ------------------------------- 3
+TÄ«kliskÄ plÄnoÅ¡ana un Ganta diagrammas (ar piemÄ“riem) ------------------------------- 3
 
-Datu plûsmu diagrammas (ar piemçriem) -------------------------------------------------- 12
+Datu plÅ«smu diagrammas (ar piemÄ“riem) -------------------------------------------------- 12
 
-Programmatûras izstrâdes dzîves cikla modeïi (ar piemçriem)----------------------------------2
+ProgrammatÅ«ras izstrÄdes dzÄ«ves cikla modeÄ¼i (ar piemÄ“riem)----------------------------------2
 
-Programmatûras konfigurâciju pârvaldîba (ar piemçriem)--------------------------------------10
+ProgrammatÅ«ras konfigurÄciju pÄrvaldÄ«ba (ar piemÄ“riem)--------------------------------------10
