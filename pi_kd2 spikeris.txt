@@ -58,10 +58,51 @@ spirāles modelis
 Programmatūras konfigurāciju pārvaldība (ar piemēriem): 10
 CVS, git, SVN
 repozitorijs
------- jauni---
+------ jauni---------------------------------------------------------
 Programmatūras prasības: 6
 
+Prazīmju formulējua īpašība
+Katram prasību formulējumam vajadzētu būt:
+1) pilnam (complete)
+2) pareiza (correct)
+3) īstenojam (feasible)
+4) nepiecišamam (nesessary)
+5) priorizētam (prioritized)
+	3 līmeņi būtiski-essential, nosacīta-būtu labi ja būtu, iespējama-optional
+6) skaidram (unambiguous)
+7) verificējamam (verifiable)
+
+Prasību specifikācija:
+a) pilnai (complete)
+b) nepretrunīga (consistent)
+c) modificējamai (modifiable)
+d) trasējamai (tracable)
+
 Kvalitātes atribūti: 6
+
+McCall'a kvalitātes faktori 
+
+Product operation - product revision - product transsion
+
+Product operation:
+correctness - pareizība
+reliability - uzticamība
+usability - lietojamība
+integrity - integrutāte (security - drošība(nelaiž iekšā sliktas lietas))
+effinciency - efektivitāte
+
+safety - nebīstamība(nav bīstama citiem)
+effectiveness - rezultativitātē
+
+product revision:
+maintainability - uzturamība
+flexibility - pielāgojamība
+testability - testējamība
+
+product transsion:
+portability - pārnesamība
+reusability - atkalizmantojamība
+interoperability - sadarbspēja
 
 Trasējamība: 6
 
