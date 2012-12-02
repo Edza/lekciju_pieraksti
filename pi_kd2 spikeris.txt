@@ -223,3 +223,26 @@ juridiskā iespējamība
 	vai īpašumtiesibas() nav skartas?
 
 Ekonomiskā lietderība, tehniskā realizējamība, tiesiskais pamatojums.: 7
+
+Ekonomiskā lietderība: 
+	satur izmaksu un labumu analīzi - novērtējumu sistēmas izstrādes projekta
+	ekonomiskajam pamatojumam. Izmaksu-labumu analīze attēlo projekta
+	izstrādei nepieciešamas izmaksas un salīdzina tos ar materiāliem un
+	nemateriāliem ieguvumiem no sistēmas izstrādes.
+
+Tehniskā realizējamība:
+	Tehniskā analīze sākas ar sistēmas tehniskās dzīvotspējas novērtēšanu.
+	Kādas tehnoloģijas ir nepieciešamas, lai apmierinātu sistēmas funkcionalitāti
+	un veiktspēju? Kādi materiāli, metodes, algoritmi vai procesi ir nepieciešami
+ 	un kādi ir to izstrādes riski? Kā šīs tehnoloģijas ietekmēs izmaksas?
+
+Blanchard un Fabrycky definē kritēriju kopu modeļu izmantošanai, veicot tehnisko analīzi, šādi:
+1. Modelim ir jāreprezentē sistēmas konfigurācijas dinamiku pietiekami vienkāršu, lai to varētu viegli saprast un manipulēt ar to, tai pat laikā pietiekami tuvu realitātei.
+2. Modelim ir jāiezīmē tie faktori, kuri ir svarīgi problēmas risināšanai un noklusēt tos, kuri nav tik svarīgi.
+3. Modelis ir jāveido kā vispārējs, iekļaujot visus būtiskus faktorus un tam ir jābūt uzticamam, ņemot vērā rezultātu atkārtojamību.
+4. Modeļa projektējumam jābūt pietiekami vienkāršam, lai savlaicīgi implementēt problēmu risinājumus.
+5. Modeļa projektējumam ir jāiekļauj noteikumi vieglai modificēšanai un/vai papildināšanai, lai ļautu novērtēt papildus faktorus atbilstoši prasībām.
+
+Tiesiskais pamatojums:
+
+Tiek noteikti jebkuri likumpārkāpumi, traucējumi vai atbildība, kuri var iestāties vai izrietēt no sistēmas izstrādes.
