@@ -85,8 +85,8 @@ Prazīmju formulējua īpašība
 Katram prasību formulējumam vajadzētu būt:
 1) pilnam (complete)
 2) pareiza (correct)
-3) īstenojam (feasible)
-4) nepiecišamam (nesessary)
+3) īstenojamam (feasible)
+4) nepieciešamam (nesessary)
 5) priorizētam (prioritized)
 	3 līmeņi būtiski-essential, nosacīta-būtu labi ja būtu, iespējama-optional
 6) skaidram (unambiguous)
