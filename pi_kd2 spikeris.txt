@@ -1,10 +1,23 @@
 ﻿Programmatūras produkti un procesi: 1
 
+process
+apakšprocess aktivitāte - activity
+apakš(x2)process darbība vai akcija - [action]
+apakš(x3)process uzdevums - task
+
 Programmatūras projekta pārvaldības procesi: 2
+
+dokumentēšana
+plānošana
+konfigurācija, pārvaldība
+kvalitātes pārbaude-QA
+mērīšana
+formālās tehniskās apskates
+risku pārvaldība
 
 Organizāciju un programmizstrādes komandu tipi : 8
 
-Herarhija, brīvu cilvēku kompānija
+Herarhija, brīvu cilvēku kompānija, PRICE
 
 Projekta kalendārā ilguma un darbietilpības prognozēšana: 4
 COSMIC
@@ -17,6 +30,14 @@ People required P = E / D
 
 Tīkliskā plānošana un Ganta diagrammas (ar piemēriem): 3
 
+Granta diagrammas:
+Task ------------------
+Task					^------------------------
+Tîklveida diagrammas "Critical path method":
+Virzīts grafs bez cikliem
+virsotnes ir uzdevumi ar norādīto laiku
+šķautnes ir saistības (dependecies)
+
 Datu plūsmu diagrammas (ar piemēriem): 12
 
 četri elementi:
@@ -27,8 +48,16 @@ divas paralelas taisnes - datu krātuve (data store) ar nosaukumu =/= datubāze 
 
 Programmatūras izstrādes dzīves cikla modeļi (ar piemēriem): 2
 
-Programmatūras konfigurāciju pārvaldība (ar piemēriem): 10
+agile - scrum
+waterfall - v,b
 
+evolucionārie modeļi
+prototipēšanas modeļi
+spirāles modelis
+
+Programmatūras konfigurāciju pārvaldība (ar piemēriem): 10
+CVS, git, SVN
+repozitorijs
 ------ jauni---
 Programmatūras prasības: 6
 
@@ -89,6 +118,14 @@ l 7 6 5
 	Dokumentēt pasību darbietilpību
 
 Kvalitātes nodrošināšana: 9
+kvalitātes pārvaldība:
+	1. kvalitās pārvaldības pieeja (approach) ~ ISO 9001
+	2. rezultatatīva (effective) programminženierijas tehnoloģija (metodes un rīkus)
+	3. formālās tehniskās apskates (formal tehical reviews - FTR)
+	4. daudzkārtējas (multitiered) testēšanas stratēģija
+	5. programmatūras dokumnetācijas un tās izmaiņu vadību. (change control)
+	? 6. procedūra, kas panāk atbilstību programistrādes standartiem, ja piemērojams.
+	7. mērīšanas un ziņošanas (reporting) mehānismi
 
 kvalitātes sistēma
 ISO 9001 īsuma:
