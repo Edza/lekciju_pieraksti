@@ -1,9 +1,16 @@
 ﻿Programmatūras produkti un procesi: 1
+vannas līkne - bath-tube curve
 
 process
 apakšprocess aktivitāte - activity
 apakš(x2)process darbība vai akcija - [action]
 apakš(x3)process uzdevums - task
+
+R.S. Pressman
+   |	Tools		     |
+  | 	Methods		      |	
+ |	Process		       |
+|	A quality focus		|
 
 Programmatūras projekta pārvaldības procesi: 2
 
@@ -55,8 +62,12 @@ agile - scrum
 waterfall - v,b
 
 evolucionārie modeļi
-prototipēšanas modeļi
+prototipēšanas modelis
 spirāles modelis
+
+ātrās iztrādes modelis
+RAD Rapid application development modelis
+60-90 dienu termiņš
 
 Programmatūras konfigurāciju pārvaldība (ar piemēriem): 10
 SCI - konfuguracijas vienumi
