@@ -757,4 +757,32 @@ review report:
 		noraidīt (nevar defektus novērt 2 nedēļās)
 		)
 
+Programmatūras testēšana
+Ikviena datorprogramma ir pareiza.
+Nav zinams vai dara ko vajag.
+Nepiecišams orākuls 1, lai pateikt vai rezultāts atbilst ievaddatiem.
+Kad drīgst beigt testēt? Nepieciešams orākuls 2.
 
+test-
+	testpiemērs- testcase
+		ievaddati un "pareizais" rezultāts
+		tikai ievaddati
+	testēšana
+	----------
+	testēšanas procedūra
+	testēšanas parskats (report)
+
+2 pieejas (approach), white box (glass box) and black box
+testēšanas paņēmieni (technieques)
+testēšanas stratēģijas (strategies)
+
+Stikla kastes testēšana (strukturātā testēšana)
+~ 1970 apskatija control flow- vadības plūsmas
+
+coverage
+
+C0 - covered all code lines
+C1 critejs >=75% coverage (every 2 connected lines)
+C2 - covered every 3 lines connected
+
+kā iegūt test piemēru kopu critējam C1
