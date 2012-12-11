@@ -786,3 +786,9 @@ C1 critejs >=75% coverage (every 2 connected lines)
 C2 - covered every 3 lines connected
 
 kā iegūt test piemēru kopu critējam C1
+
+programmas ceļa simboliska izpilde
+
+nosacījuma loģikas testēšana - visas loģ nosacijumu kombinaciajas
+datu plūsmu testēšana (!= DFD DPD) - visas dinamiskās piešķiršanas, un visusr kur izmantotas, def-use ceļus apskatīt.
+
