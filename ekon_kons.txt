@@ -1,0 +1,36 @@
+7-11 tema
+var formula lapu ar apzimejiem bez grafikiem
+rekomendacija:
+tiem kuriem >=4 3KD, tiem kuriem <4 eks
+
+makrorādītāji
+IKP pec izdevuma metodes
+IKP=C+G+Ig+Xn
+Ig = gross invest
+
+TIP=tirais produkts
+amf= amortazacijas fonds (kapitals dalas) liel IKP-TIP
+In = tiras investicijas liel Ig-amf
+
+nominals vs reāls
+Nom IKP
+IKPdef = ari ikp cenu indekss
+R IKP = Nom IKP /IKPdef
+
+R IKP = Q jaunais gads, P vecais gads
+
+PCI = pateriņa cenu indekss
+
+m=1/R
+E=(1-R)*Noguldijumss
+D=E*m Effects 
+kopejais naudas piedavajums
+
+bilanse
+pasivs 1*noguldijums
+aktivs R*noguldijums+(1-R)noguldijs [kredits+obligata rezerve]
+
+Pt- cena ar muitas tarifu
+Pw- cena bez maitas tarifu
+
+
