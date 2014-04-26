@@ -1,9 +1,18 @@
 ﻿Klašu diagramma(class diagram):
 	Klase:
-		Atrinūti, to kardinalitātes(default=1)
-	vispārināšana(mantošana)- generalization
-		ierobežotāji: incomplete/complete + disjoint/overlapping (default=incomplete+overlapping)
-	virklase un apakšklases - superclass and subclasses
-	Abstrakta klase(abstact class) - name in italics
-
-Instanšu kopas
+		Atrinūti, to kardinalitātes(multiplicity)(default=1)
+		virklase un apakšklases - superclass and subclasses
+		Abstrakta klase(abstact class) - name in italics
+	Attiecības(relationships):
+		vispārināšana(mantošana)- generalization
+			ierobežotāji: incomplete/complete + disjoint/overlapping (default=incomplete+overlapping)
+		Asociācijas(associations), to kardinalitātes
+		Aggregācija(aggregation)
+		Kompozīcija(composition)
+		Simetriskas un rekursīvas attiecības
+		Ierobežotājs {xor}
+		{ordered}
+Instanšu kopas diagrammas
+Instanšu diagrammas
+Klašu diagrammas veidošana no apraksta un otrādi
+Metamodeļi(metamodels)
