@@ -1,0 +1,9 @@
+﻿Klašu diagramma(class diagram):
+	Klase:
+		Atrinūti, to kardinalitātes(default=1)
+	vispārināšana(mantošana)- generalization
+		ierobežotāji: incomplete/complete + disjoint/overlapping (default=incomplete+overlapping)
+	virklase un apakšklases - superclass and subclasses
+	Abstrakta klase(abstact class) - name in italics
+
+Instanšu kopas
