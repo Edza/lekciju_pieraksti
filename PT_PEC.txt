@@ -1,1 +1,19 @@
 [Programmatūras testēšanas pirms eksāmena konsultācija]
+
+EKSĀMENS - 6.05.14 pl.14.30
+
+1. daļā Materiāli nav atļauti ~30.min
+2. un 3. daļā atļauti drukātie materiāli ~90.min
+
+[1. daļa - "Pamatjēdzieni" - 10p]
+
+10 termini vai 10 jautājumi (2.-3.min uz jautājumu). (Pārsvarā tas, kas lekcijās minēts, iespējams, ka ar slaidu pārlasi nepietiks)
+(istqb glossary - F līmenis jāzin) Dažos teikumos, lai parādītu to, ka būtība zināma.
+
+[2. daļa - "2. uzd saistīti ar testēšanu" - 10p]
+
+Dota specifikācija programmai un jāizveido testpiemēru kopu.
+
+[3. daļa - "1. uzd" - 15p]
+
+Testēšanas organizēšana/stratēģija
