@@ -1,0 +1,10 @@
+[2.09]
+4.tēma:
+1)datu saspiešana
+	teksta saspiešana: Huffman, Lenpel-zevi, burrows-wheeler algoritmi
+	attēlu un skaņas saspiešana: kvantizācijas, transformācijas
+2)kļūdu korekcija
+	nokodēt datus tā, lai tos varētu atjaunot kļūdu gadījumā
+3)optimizācija
+	
+4)meklēšana
