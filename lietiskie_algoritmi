@@ -1,10 +1,33 @@
 [2.09]
-4.tēma:
-1)datu saspiešana
-	teksta saspiešana: Huffman, Lenpel-zevi, burrows-wheeler algoritmi
-	attēlu un skaņas saspiešana: kvantizācijas, transformācijas
-2)kļūdu korekcija
-	nokodēt datus tā, lai tos varētu atjaunot kļūdu gadījumā
-3)optimizācija
+	4.tēmas:
+	1)datu saspiešana:
+		teksta saspiešana: Huffman, Lenpel-zevi, burrows-wheeler algoritmi
+		attēlu un skaņas saspiešana: kvantizācijas, transformācijas
+	2)kļūdu korekcija:
+		nokodēt datus tā, lai tos varētu atjaunot kļūdu gadījumā
+		Heminga kods, Rīda-Solomona kods
+		tornado kods
+	3)optimizācija:
+		kā kaut ko izdarīt minimālā laikā
+		lineārā programmēšana
+		simpleksa/elipsoīda/iekšējā punkta algoritmi
+	4)meklēšana:
+		meklēšana simbolu virknēs: Karp-Rabin, Boyer-Moore, Knuth-Morris-Pratt
+		aptuvenā meklēšana
+		meklēšana dokumentu kolekcijās/Internetā
+
+	Prasības KP iegūšanai:
+		60% - veido MD: 
+			3-5 md (uz papīra vai estudijās(viens fails + pdf formātā, jānorāda vārds/st. apliecības nr. gan tekstā, gan nosaukumā))
+			termiņš ~2 nedēļa no publicēšanas estudijās (1 nedēļa kavējums 10% samazinājums, ilgāk nebūtu ieteicams)
+		40% - veido KD:
+			rakstiski ar materiāliem 2h
+		i-iespēja:
+			papildus uzdevumi
+
+	Konsultācija:
+		Pirmdienās 14-30 līdz 16-20, 319. kabinets
+
+*************************************************************************************************
+Datu saspiešana:
 	
-4)meklēšana
