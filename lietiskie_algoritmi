@@ -30,4 +30,25 @@
 
 *************************************************************************************************
 Datu saspiešana:
-	
+	Bez zudumiem: Dati` = Dati
+		teksts/programmas
+	Ar zudumiem: Dati` ~ Dati
+		attēls/skaņa
+
+Saspiešana bez zudumiem:
+	1) Universāla saspiešana nav iespējama
+	Dati nav nejauši(pastāv likumsakarības)
+	Teksta saspiešana:
+		angļu valodas teksts: 96 simboli
+		bez saspiešanas: 96 simboliem -> 7 biti
+		labākais algoritms: 1.9 biti/simbola
+		teorētiskā robeža: ~1.3 biti/simb
+		Huffman alg.: 4.7 biti/simb
+	Likumsakarība(Hofmaņa alg.):
+		daži burti ir daudz biežāki par citiem
+	Prefiksu koki:
+		binārs koks, škautnes apzīmētas ar 0/1, lapas - burti
+		biežāk lietotie burit tuvāk koka saknei
+	Huffmana alg:
+		atrod labāko iespējamo prefiksu koku
+
