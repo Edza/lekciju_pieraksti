@@ -52,3 +52,34 @@ Saspiešana bez zudumiem:
 	Huffmana alg:
 		atrod labāko iespējamo prefiksu koku
 
+***************************************************************************************************
+[9.09]
+***************************************************************************************************
+Hofmaņa algoritms:
+	burtu biežumi => labākais koks
+	Algoritms:
+		-Izveido pa lapai katram burtam
+		-Atkārto: (līdz viss savienots vienā kokā)
+			-sameklē divus burtus ar vismazāko biežumu un apvieno (apvienotais zars(biežums ir x + y))
+Hofmaņa algoritma optimalitāte:
+	Kritērijs:
+		vidējais bitu skaits 1 bita nokodēšanai
+		p_i - biezumi
+		l_i - bitu skaitu, lai nokodētu i
+		V=SUM(limits(i)p_i*l_i) <= jābūt minimālam
+	Īpašības optimālajam kokam:
+		-Ja p_x < p_y, tad l_x >= l_y (ja neizpildās, apmaina vietām x un y)
+		-Ir vismaz 2 x ar max l_x
+		-Ja x, y retākie 2 burti, tad viens no optimālajiem kokiem satur to apvienojumu (visretākais)
+		-Pamato ar indukcijas palīdzību
+Entropija:
+	Modelis:
+		katrs burts tiek izvēlēts neatkarīgi no citiem burtiem, x ar biežumu p_x
+	Entropija:
+		H = -SUM(limits(x) p_x*log(p_x))
+	Teorēma:
+		Nejaušu tekstu ar biežumiem p_x nevar saspiest līdz < H bitiem uz burtu
+	Angļu valoda:
+		Huffman:
+			4.9 biti/burtu
+			H: 4.7 biti/burtu
