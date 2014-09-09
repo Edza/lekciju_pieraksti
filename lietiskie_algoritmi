@@ -83,3 +83,14 @@ Entropija:
 		Huffman:
 			4.9 biti/burtu
 			H: 4.7 biti/burtu
+		Teorēma:
+			H <= V < H+1
+		Teorēma:
+			V <= H + max(p_x+0.086)
+Aritmētiskā kodēšana:
+	Sadala proporcionāli burtu biežumam
+	Atkārto katram burtam tekstā
+	Rezultāts:
+		-skaitlis no pēdējā inetrvāla
+	Apgalvojums:
+		Aritmētiskā kodēšana sasniedz H bitus uz burtu (t.i. sasniedz entropiju)
