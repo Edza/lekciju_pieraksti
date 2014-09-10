@@ -1,0 +1,21 @@
+**************************************************************************
+[10.09]
+**************************************************************************
+Kirkmana skolnieks(1850.g)
+	Kādā internātskolā mācās 15 skolnieces. Audzinātājs viņas katru dienu ved pastaigāties ierindā pa trim.
+	Tiek sastādīts saraksts 7 nedēļas dienām tā, lai katra skolniece ar katru nedēļas laikā vienā un tai pašā
+	trijniekā nokļūtu tieši 1 reizi. Kā to var izdarīt?
+
+Grupa
+	Dota kopa un operācija viņā:
+		1) eksistē tāds neitrālais elements x+0 = 0+x = x
+		2) katram elementam eksistē inversais tāds, ka x + (-x) = 0
+		3) asocaotīvā a+(b+c) = (a+b)+c
+
+Lauks
+	Kopa un divas operācijas tajā: (+/*)
+		1) visi elementi ar operāciju + veido komutatīvo grupu
+		2) visi nenulles elementi ar operāciju * veido komutatīvo grupu
+		3) distributīvais a(b+c)=ab+ac
+
+MD: Konstruēt lauku ar 8 elementiem. (iesūtīšana e-studijās)
