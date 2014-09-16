@@ -95,3 +95,30 @@ Aritmētiskā kodēšana:
 		-skaitlis no pēdējā inetrvāla
 	Apgalvojums:
 		Aritmētiskā kodēšana sasniedz H bitus uz burtu (t.i. sasniedz entropiju)
+**********************************************************************************************************************
+[16.09]
+**********************************************************************************************************************
+Lempela-Ziva algoritms
+	Takstā ir fragmenti, kas atkārtojas. Ievieš apzīmējumus šiem fragmentiem.
+	LZ78:
+		w = NIL;
+		while(k=readchar()){
+			if wk in dictionary {w=wk}
+			else{
+				output code for w;
+				add wk to dictionary;
+				w=k;
+			}
+		output code for w;
+
+		Vārdnīca:
+			-sākumā visi burti
+			-saspiežot tekstu papildina vardnīcu ar garākām burtu virknēm, kas sastopamas tekstā.
+		Piemērs:
+			ababcabcdabc
+
+		Datu struktūra vārdnīcai:
+			meklēšanas koks
+			hash tabula
+		Ierobežota vs neierobežota vārdnīca:
+			ierobežota vārdnīca ~2000 vārdi
