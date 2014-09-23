@@ -152,4 +152,6 @@ Saspiešana ar zudumiem
 		256 krāsas->64 krāsas
 		a)vienmērīga kvantizācija
 		b)nevienmērīga kvanticācija
-		c)vektoru kvantizācija
+	2)vektoru kvantizācija
+	3)Transformācijas	
+		Pārveido datus formā, kur kvantizācijas dod labus rezultātus
