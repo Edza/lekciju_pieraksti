@@ -130,3 +130,26 @@ Lempela-Ziva algoritms
 			00011001100... => 0(ar ko sākas virkne),3,2,2,2,... (RLE - run length encoding) Melbaltu attēlu kodēšan. Beigās pielieto kādu no kodēšanas algoritmiem.
 		-Starpību kodēšana:
 			dati ir skaitļi 17, 12, 23, 14, ... => 17, 12-17, 23 - 12, ... Beigās pielieto kādu no kodēšanas metodēm.
+***************************************************************************************************************************
+[23.09]
+***************************************************************************************************************************
+Burrows-Wheeler
+	[BW transformācija]->[Move to front]->[Hoffman arithmetic]
+	Move to front:
+		iejā simbolu virkne un izejā skaitļu virkne
+		Simbolus saliek masīvā un ja nāk kāds simbolds, tad kodē ar vietu masīvā(vienlaikus pārvieto uz masīva sākumu)
+	BW transformācija:
+		1)sadala tekstu pa ~1000 simbolu blokiem
+		2)katru bloku ņem visas simbolu virknes, ko iegūst bloku nobīdot pa 1,2,3...simboliem(cikliska nobīde)
+		3)sakārto virknes pēc 2. simbola no beigām (ja vienāds pēc 3., 4. ...)
+		4)rezultāts virkņu pēdējie simboli
+
+Saspiešana ar zudumiem
+	attēls(video), skaņa
+	mērķis atjaunot kaut ko, kas izskatās/izklausās līdzīgi
+
+	1)skalārā kvantizācija
+		256 krāsas->64 krāsas
+		a)vienmērīga kvantizācija
+		b)nevienmērīga kvanticācija
+		c)vektoru kvantizācija
