@@ -155,3 +155,29 @@ Saspiešana ar zudumiem
 	2)vektoru kvantizācija
 	3)Transformācijas	
 		Pārveido datus formā, kur kvantizācijas dod labus rezultātus
+******************************************************************************************************************************
+[30.09]
+******************************************************************************************************************************
+Kļūdu korekcija
+	Kļūdu detekcija:
+		Dati->Kodēti dati->Trokšņi->??->Sākotnējie dati
+		D->C->C`->D
+	Kļūdu korekcija:
+		Dati->Kodēti dati->Dati ar kļūdām->Sākotnējie dati
+		D->C->C`->D
+	Vispārīgā nostādne:
+		D->C
+		k biti -> n biti
+		Ja ziņojumā C sabojāās d biti, tad var atjaunot D. Ja izpildās, tad izpildās [n,k,d] kods.
+	Teorēma:
+		(Kods var labot 1 kļūdu) <=> (Jebkuri 2 ziņojumi atšķiras vismaz 3 vietās)
+		(Kods var labot d kļūdas) <=> (Jebkuri 2 ziņojumi atšķiras vismaz 2d+1 vietās)
+	Kodi, kas spēj labot 1 kļūdu:
+		3 bitu ziņojumi:
+			0 -> 000
+			1 -> 111
+		Heminga kods [7,4,1]:
+			1,2,3,5 bits kodētajā ir no kodētā teksta 
+				y1=(x1+x2+x3)mod2, 
+				y2=(x1+x2+x4)mod2, 
+				y3=(x1+x3+x4)mod2
