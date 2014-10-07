@@ -181,3 +181,33 @@ Kļūdu korekcija
 				y1=(x1+x2+x3)mod2, 
 				y2=(x1+x2+x4)mod2, 
 				y3=(x1+x3+x4)mod2
+*******************************************************************************************************************************
+[7.10]
+*******************************************************************************************************************************
+Heminga vispārējais gadījums:
+	2^n-n-1 biti => 2^n -1 biti (kods var labot vienu kļūdu)
+	-Informācijas biti
+		(sākotnējie biti, kas tiek pārkopēti uz ziņojumu)
+		Pārējie, kas nav kontroles biti
+	-Kontroles biti
+		(tiek izrēķināti no informācijas bitiem)
+	----
+	1) pārkopē informāciju uz informācijas bitiem
+	2) x00...1 0...1 = SUM(Xj...ji-1 ji+1...Jn)mod2
+		Tie biti, kuru nummuros ir tieši 1 vieninieks
+	
+	kļūdas korekcijas:
+		1) pārrēķina (x) katram i
+		2) ja nesakrīt, kļūda ir SUM funkcijā
+	Heminga kods ir optimāls:
+		ja S<={0,1}^(2^n -1), S koriģē 1 ķļudu (katras x, y pieder S atšķiras >=3 vietās), tad |S| <= 2^(2^n -n-1)
+
+Lineāri kodi:
+	katrs ziņojuma bits: (xi+...Xi) mod 2
+
+Rīda Solomona kodi:
+	Balstās uz algebras pamatteorēmu:
+		polinomam f(X) = a0 + a1X ... anx^n ir <=k x:f(x)=0
+		s-(k-1)>=2c+1, c kļūdas, k - skaitļu koeficients
+		Piemērs:
+			k=3, S=9 => c <= 3
