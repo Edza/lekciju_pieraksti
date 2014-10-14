@@ -211,3 +211,34 @@ Rīda Solomona kodi:
 		s-(k-1)>=2c+1, c kļūdas, k - skaitļu koeficients
 		Piemērs:
 			k=3, S=9 => c <= 3
+*******************************************************************************************************************************
+[14.10]
+*******************************************************************************************************************************
+Patiesībā izmanto galīgus laukus.
+Dati=>Galīgā lauka skaitļi=> tās pašas darbības kā veseliem skaitļiem.
+
+Dubuntā RS kodēšana.
+Vērtības sadala blokos.
+Rs(24,32), tad elementus pārkārto (interlace) Pirmie elementi no katra bloka pirmajā blokā, otrā otrie, utt.
+
+Kodēšana un tehnoloģiju attīstība.
+
+Kodi datu pārraidei Internetā (Tornado kodi).
+
+Saņemti dati ir pareizi.
+Liela daļa no datiem nav saņemti.
+Atkārtota datu sūtīšana var nebūt iespējama.
+RS kodus nevar lietot, jo tie ir par lēnu.
+
+Grafu kodi.
+Divdaļigs grafs ar
+informācijas biti(x_i) kreisā pusē,
+kontrolbiti (y_i) labajā pusē(y_i=(\sum x_j|y_i un x_j ir savienoti)mod 2)
+
+Iterātie grafu kodi
+Divi kodi:
+x_i->y_i un y_i->z_i
+
+Vairāki kodi
+-> -> -> -> un -> RS
+Atkodēšana
