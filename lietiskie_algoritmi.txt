@@ -242,3 +242,46 @@ x_i->y_i un y_i->z_i
 Vairāki kodi
 -> -> -> -> un -> RS
 Atkodēšana
+
+*******************************************************************************************************************************
+[21.10]
+*******************************************************************************************************************************
+Lineārā programmēšana
+Optimizācijas uzdevumi
+	f(x_1,x_2,..,x_n) - min/max=?
+	ar nosacījumiem f(x_1,x_2,..,x_n) -min/max=? 
+	P_1(x_1,x_2,..,x_n)>=0
+	..
+	P_k(x_1,x_2,..,x_n)>=0
+Kvadrātiskā programmēšana
+	(\sum_{i,j}C_{ij}x_i y_i+\sum_i d_i x_i
+	a_{11}x_1..a{1n}x_n>=0
+	..
+	a_{k_1}x_1 >=0
+Lineārā programmēšana
+	\sum_i x_i -max/min=?
+	a_{11}... >=0
+Piemērs I:
+	Produkti 1..n, cenas P_1 ..p_n
+	Uzturvielas 1..k, katra c_i daudzumi
+	i-ta produkta paka a_{ij} vienības j uzturvielas
+	min \sum_i p_i*x_i
+	\fall x x_i>=0
+	\fall j \sum_i a_{ij} >=c_j
+Piemērs II:
+	n cilvēki un n uzdevumi
+	x_{ij}-i-tais cilveks pilda j uzdevumu
+	0-nepilda
+	1-pilda
+	max \sum _{i,j} x_{ij}
+	x_{ij}=0, ja i neprot j
+	citādi x_{ij}=1 vai 0
+	\fall i \sum_j x_{ij}<=1
+Vispārīgais uzdevums
+	\sum_i x_i -max=?
+	a_{11}... <=b_1
+Grafiksais risinājums
+	Uzzīmē visas taisnes, izdala planes daļu, kura atbilst nosacījumiem.
+Simplex metode
+	Sāk ar patvaļīgu stūri V
+	Kamēr V nav max iet uz blakus stūri U, kuram izteikmes vertība ir lielākasimplezx.
