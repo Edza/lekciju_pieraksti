@@ -284,4 +284,24 @@ Grafiksais risinājums
 	Uzzīmē visas taisnes, izdala planes daļu, kura atbilst nosacījumiem.
 Simplex metode
 	Sāk ar patvaļīgu stūri V
-	Kamēr V nav max iet uz blakus stūri U, kuram izteikmes vertība ir lielākasimplezx.
+	Kamēr V nav max iet uz blakus stūri U, kuram izteikmes vertība ir lielāka.
+Tabulas forma
+	max(2x_1+3x_3)
+	x-2x_2+x_3=4
+	x+x_2+x_4=18
+	x_2+x_5=10
+	x_1,x_2>=0
+	x_3,x_4,x_5>=0
+Standartforma
+
+	------------------------
+		| E_n |b_i
+	------------------------
+	c_1..c_n|00000000|
+	brīvie, pamatmainīgie
+	x_i=0, x_i != 0
+Simplexalgoritms
+	1.Uzbūvē tabulustandartformā
+	2.Izvēlas brīvā mainīgo, kuru palielinot, palienās izteiksme
+	3.Palielinam mainīgo, nomaina brīvos mainīgos
+	4.Darīt kamēr var izvēlēties lielāku
