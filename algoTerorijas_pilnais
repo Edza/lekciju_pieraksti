@@ -14,3 +14,4 @@ Gap theorems:
 	L={o^n 1^n}
  T3: Ja kādu valodu var pazīt ar 2-way Tjūringa mašīnu, kas vienmēr izdod rezultātu, lietotjot telpu s(n) = O(loglogn), tad šo valodu var pazīt arī ar galīgu automātu.
 	L = {x | k prefiks 0100011011...}
+(INFO: prēmija 10, jāpierāda ,ka 00001111 atkal vajag >= cons * logn atmiņas)
