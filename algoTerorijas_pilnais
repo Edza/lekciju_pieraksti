@@ -12,5 +12,5 @@ Gap theorems:
  T1: Ja kādu valodu var pazīt ar Tjūringa mašīnu, kas vienmēr izdod rezultātu laikā t (n) = O(n*logn), tad šo valodu var pazīt arī galīgs automāts.
  T2: Ja kādu valodu var pazīt ar 1-way Tjūringa mašīnu, kas vienmēr izdod rezultātu, lietojot telpu s(n) = O(logn), tad šo valodu var pazīt arī ar galīgu automātu.
 	L={o^n 1^n}
- T3: Ja kādu valodu var pazzīt ar 2-way Tjūringa mašīnu, kas vienmēr izdod rezultātu, lietotjot telpu s(n) = O(loglogn), tad šo valodu var pazīt arī ar galīgu automātu.
+ T3: Ja kādu valodu var pazīt ar 2-way Tjūringa mašīnu, kas vienmēr izdod rezultātu, lietotjot telpu s(n) = O(loglogn), tad šo valodu var pazīt arī ar galīgu automātu.
 	L = {x | k prefiks 0100011011...}
