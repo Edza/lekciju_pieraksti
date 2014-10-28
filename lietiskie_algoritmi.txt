@@ -305,3 +305,75 @@ Simplexalgoritms
 	2.Izvēlas brīvā mainīgo, kuru palielinot, palienās izteiksme
 	3.Palielinam mainīgo, nomaina brīvos mainīgos
 	4.Darīt kamēr var izvēlēties lielāku
+**************************************************************************************************************
+[28.10]
+**************************************************************************************************************
+max 5*x_1 + 14*x_2
+    x_1 + x_2 <= 1
+    2*x_1 + 7*x_2 <=9
+    x_1 >=0, x_2>=0
+----------------------
+ 1) 3(2x_1+7x_2)<=3*9
+5x_1+14x_2<=6x_1+21x_2<=27
+ 2) 5x_1+14x_2 <= 14x_1+14x_2 <=14
+-------vispārīgajā gadījumā----------
+max c1 x1 + ... + cn xn
+a) x1, ...xn => max >= c
+b)nosacījumi => Novērtējumi no augšas => max <= c
+
+Novērtējums no augšas?
+    x_1 + x_2 <= 1
+    4*x_1 + 14*x_2 <= 18 (2*x_1+7*x_2 <= 9 | *2)
+    --------------
+    5x_1 + 15x_2 <=19
+    5x_1 + 14x_2 <= 5x_1 + 15x_2 <= 19
+    Maksimums <= 19
+
+Labākais novērtējums no augšas
+    min c1 + 9c2         -
+        c1 + 2c2 >= 5     | <= Lineāra programma
+        c1 + 7c2 = 14     |
+        c1 >= 0, c2 >= 0 -
+
+Duālā programma
+    Sākotnējā (primārā) programma => max
+                 ||
+             Duālā programma => min b1y1 + b2y2 ...
+
+Dualitātes teorēma:
+	1) Ja primārajai programmai eksistē max, tad max(c1x1...+cnxn) = min(b1x1+...)
+	2) Ja max(c1x1...) = infi (tas ir c1x1... var būt patvaļīgi liels), tad duālajai programmai nav atrisinājuma.
+	3) Ja primārās programmas nosacījumi ir pretrunīgi, tad duālājai programmai b1y1+... var padarīt patvaļīgi mazu
+
+-----Ja primārā----
+max     c1x1+...cnxn
+	a11x1...a1nxn <=b1
+	a21x1... = b2
+	am1x1+... >=bm
+	x1>=0 ...
+tad duālā programma:
+min	b1y1...+bmym
+	a11y1 + a21y2+...+am1ym {>=;=;<=} c1
+	a12y1+...+am2ym {>=;=;<=} c2
+	y1{>=0; <=0}, y2...
+
+(zīmes) xI >= 0 => a1Iy1+...+amIyI >= cI
+        xI <= 0 => ..... <= cI
+        ja nav abi augšējie, => =cI
+	---------------------------------
+	aI1x1+...+aInxn <= bI => u1 >= 0
+        ... >= bI => yI <= 0
+	... = bI => nav >= vai <=
+
+Teorēma:
+    (maksimuma atrašana) = (visu nosacījumu izpildīšanās)
+
+Elipsoīda algoritms(hacijans 1979)
+	-Laiks O(n^4 L), kur n - mainīgo skaits un L-precizitāte
+0) Nosaka lielu apgabalu, kur noteikti atrodas atrisinājums. Novelk elipsoīdu, kur atrodas viss apgabals.
+1) Atkārto:
+	-ja elipsoīda centrā izpidlās visi nosac, OK
+	-atrod nosacījumu, kas elipsoīda centrā tiek pārkāpts visvairāk
+vol(E_k+1)   1
+--------- <= -------
+ vol(E_k)     2^(1/2n+1)
