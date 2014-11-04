@@ -377,3 +377,37 @@ Elipsoīda algoritms(hacijans 1979)
 vol(E_k+1)   1
 --------- <= -------
  vol(E_k)     2^(1/2n+1)
+[4.11]
+Lineārā programešana III
+Iekšējā punkta metode
+ O(\sqrt{nL}) iterācijas, L-precizitāte, n-mainīgo skaits
+ Virzās pa pieļaujamā apgabala iekšpusi, palielinot maksimājās izteiksmes vērtību.
+ 
+Afīnā skalēšana
+Linerā p;rogramma formā ir tikai = un mainigā >=0
+Ax=b,x_i>=0
+
+Algoritms:
+1) sāk ar kaut kādu atrisinājumu;
+2) Atkārto
+  Novek elipsoīdu ap tekošo atrisinājumu x, kas pieskaras visām x_i=0
+  Atrodam maksimumu izteiksmei uz elipsoīda. (Ignorējot Ax=b)
+  Projicē atrasto x' uz alipsoīda uz plakni Ax=b
+  Rezultāts virziens p=(p_1..p_n), kurā izteikmsme pieaug visvairāk
+  Tekošais atrisinājums (x_1..x_n)
+  Novelkam taisni (x_1+tp_1..x_n+tp_n), atrod pirmo krustpunktu ar x_i=0
+  Pavirzāmies 96%(vai citu %) līdz x_i=0
+
+Atraskt max uz elipsoida:
+T.: izteiksmes sum(c_iz_i), tad mazimums ir virzienā z_i=c_i.
+
+Projekcijas formula:
+p=z-A^T(AA^T)^{-1}Az
+
+=======================================================
+Meklēšana
+Meklēšana simbolu virknēs
+T[N]m,P[m]
+Vai vārds ir sastopams tekstā.
+Naivais algoritms =n*m
+Automāts n+f(m)
