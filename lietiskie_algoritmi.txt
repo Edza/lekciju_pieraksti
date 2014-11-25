@@ -411,3 +411,26 @@ T[N]m,P[m]
 Vai vārds ir sastopams tekstā.
 Naivais algoritms =n*m
 Automāts n+f(m)
+=======================================================
+[25.11]
+Meklēšana
+
+T=T[0]...T[n-1]
+P=P[0]...P[m-1]
+Atrast visas vietas, kur vārds sastopams tekstā.
+
+Boyer-Moore
+Sākam pārbaudīt ar pēdējo, salīdzinam simbolus no beigām.
+Varam izslēgt daudzus simbolus.
+Soļus skaits ~n/m
+
+"Sliktā simbola tabula" Char=>Int
+pēdējā pozīcija, kur sastopams šis simbols.
+S[X]={max i:P[i]=x
+     {-1,ja tāda i nav
+
+Nobīde:
+offset=pos-S[X]
+
+"Labā prefiksa tabula" Int=>Int
+L[k]-mazākā nobīde, kas nerada problēmas, ja mēs zinām, ka P[k]...P[m-1] sakrīt, pārējie nesakrīt
