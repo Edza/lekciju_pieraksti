@@ -434,3 +434,20 @@ offset=pos-S[X]
 
 "Labā prefiksa tabula" Int=>Int
 L[k]-mazākā nobīde, kas nerada problēmas, ja mēs zinām, ka P[k]...P[m-1] sakrīt, pārējie nesakrīt
+--------------------------------------------------------
+Karpa-Rabīna algoritms
+P[0]...P[m-1] -hash funkcija
+   h(P[0..m-1])
+Katram i=0,...,n-m:
+  -rēķinam h(T[i .. i-m+1])
+  -salīdzinam h(T[i .. i-m+1]) un h(P[0..m-1])
+  -ja sakrīt saldizina vērtības
+
+Piemērs
+h(P[0 .. m-1])=Sum _
+h(P[i+1 .. m+i+1-1])=h(P[i .. m+i-1])-P[i]+P[m+i-1+1]
+
+Actual hash funcition:
+h(P[0 ..m-1]=(Sum_i P[i]*k^{m-i} ) mod p
+pārēķināšana:
+h(P[i+1 .. m+i+1-1])=((h(P[i .. m+i-1])-P[i])*k+P[m+i+1-1]) mod p
