@@ -484,9 +484,11 @@ M(i,j) if(T[i-1]=T'[j-1]) = M(i-1,j-1)
 Darbību skaits <= D
 Neapskata "stūrus" UR un DL.
 
-Algoritms 2:
+Algoritms 2(Needleman-Wurcg,1970):
 1) D=1
 2) atkārto:
     darbina algoritmu
     ja min darbību skaits >D
          tad D=2D
+----------------------------------------------
+Ukkonen,1995
