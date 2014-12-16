@@ -544,3 +544,38 @@ Meklēšana (dokumentos):
             meklēšana:
                 ja jāatrod dokumenti, kas satur vārdu i:
                     pārbauda visus vektorus, kur v[i] > 0
+====================================================================
+[16.12]
+====================================================================
+	Lietotāja pieprasījumi kā vektori.
+	w=(0,0,0,1,0,1,0,0,0,1)
+	Atlase pēc pieprasījuma
+	Documentus kārto v_i1+v_i2+v_i3
+	Scalārais rēzinājums starp v un w.
+
+	Variants 2(koriģet tendenci izvēlēties garākus dokumentus)
+	sakārto pēc
+	v \cdot w /(|v|*|w|)
+	Kosīnusa mērs
+
+	Feedback
+	Saņemot rezultātus var izvēlēties derīgos un nederīgos.
+	w'=w+ \alpha(all v| der)-\beta(all v| neder)
+	kur alpha un beta ir izvēletie koificenti
+
+------------------------------------------------------------------
+	SVD/LSI/PCA (sinonīmi)
+	Singular value decomposition
+	Latent semantic indexing
+	Principal component analysis
+	
+	Ieejas dati: vektori v_i=(v_i1,v_i2...v_im) lielā dimensiju skaitā (~10 000)
+	aizstāt vektoriem ar mazāku skaitu.
+	2 soļos
+	v_i=>v_i''(garums m, bet atrodas n dimensiju apkaštelpā)=>
+	=>izslēdz liekās dimenisjas=>v_i'(n dimensijas)
+
+	1.solis
+	Ko nozīmē sabojāt vektorus pēc iespējas mazāk(v_i approx v_i''). 
+	||v_i-v_i''||^2
+	\sum_{ij} (v_ij-v''_ij)^2 
