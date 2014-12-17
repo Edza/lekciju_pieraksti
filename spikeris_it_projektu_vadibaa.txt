@@ -1,0 +1,81 @@
+PROJEKTS – pagaidu pasākums, kas uzsākts unikāla servisa, produkta vai rezultāta radīšanai.
+
+Projektu ierobežo Izmaksas, Resurisi, Sfēra, Laiks, Kvalitāte.
+
+Projekta PĀRVALDĪBA
+– zināšanu, prasmju, rīku un tehniku pielietojums projekta aktivitātēm ar mērķi apmierināt projekta prasības
+
+veiksmes faktori:
+1. Vadības atbalsts (!!!)
+2. Sadarbība ar lietotājiem/ pasūtītājiem
+3. Pieredzējis projekta vadītājs
+4. Skaidri biznesa mērķi
+5. Minimizēta projekta sfēra
+6. Standartizēta infrastruktūra
+7. Nemainīgas pamatprasības
+8. Formāla metodoloģija
+9. Uzticami novērtējumi
+
+zināšanu apgabali:
+Sfēras pārvaldība
+Laika pārvaldība
+Izmaksu pārvaldība
+Cilvēkresursu pārvaldība
+Komunikāciju pārvaldība
+Risku pārvaldība
+Iepirkumu pārvaldība
+->Projekta integrācijas pārvaldība
+
+Prince 2:
+*7 procesi (pakāpeniska virzība projekta dzīves ciklā)
+– Sadalīti 3-8 apakšprocesos
+*7 tēmas (būtiski aspekti, spēkā visu projekta laiku)
+*7 principi (pienākumi/ labā prakse, obligāti PRINCE2
+* 2 tehnikas
+* 28 vadības produkti
+* 4 vadības līmeņi:
+– Uzņēmuma vai programmas vadība
+– Projekta valde
+– Projekta vadība
+– Komandas vadība
+//TODO Prince 2 details
+
+integrācijas vadība:
+INICIALIZĀCIJAS PROCESI:
+– Izstrādāt projekta hartu
+PLĀNOŠANAS PROCESI:
+– Izstrādāt projekta pārvaldības plānu
+IZPILDES PROCESI:
+– Virzīt un pārvaldīt projekta izpildīšanu
+PĀRRAUDZĪBAS UN KONTROLES PROCESI:
+– Pārraudzīt un kontrolēt projekta darbu
+– Izpildīt integrēto izmaiņu kontroli
+SLĒGŠANAS PROCESI:
+– Slēgt projektu
+
+Projekta sfēras pārvaldība:
+//TODO page 4
+INICIALIZĀCIJAS PROCESI: Nav
+PLĀNOŠANAS PROCESI:
+– Vākt prasības
+– Definēt sfēru
+– Izstrādāt darbu sadalījuma struktūru (DSS) DSS=WBS
+IZPILDES PROCESI: Nav
+PĀRRAUDZĪBAS UN KONTROLES PROCESI:
+– Pārbaudīt sfēru
+– Kontrolēt sfēru
+SLĒGŠANAS PROCESI: Nav
+
+Projekta laika pārvaldība:
+INICIALIZĀCIJAS PROCESI: Nav
+PLĀNOŠANAS PROCESI:
+– Definēt aktivitātes (*) => Šķirtnes(milestones)
+– Noteikt aktivitāšu secību (*)
+– Novērtēt aktivitāšu resursus (*)
+– Novērtēt aktivitāšu ilgumu (*)
+– Izstrādāt kalendāro grafiku (*)
+IZPILDES PROCESI: Nav
+PĀRRAUDZĪBAS UN KONTROLES PROCESI:
+– Kontrolēt kalendāro grafiku
+SLĒGŠANAS PROCESI: Nav
+(*)mazos procesos kļūst par vienu procesu
