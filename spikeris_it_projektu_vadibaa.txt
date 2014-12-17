@@ -79,3 +79,89 @@ PĀRRAUDZĪBAS UN KONTROLES PROCESI:
 – Kontrolēt kalendāro grafiku
 SLĒGŠANAS PROCESI: Nav
 (*)mazos procesos kļūst par vienu procesu
+
+ticamības pārbaude cilvēku skaits~=sqrt(darbietilbības)
+
+Projekta kvalitātes pārvaldība:
+INICIALIZĀCIJAS PROCESI: Nav
+PLĀNOŠANAS PROCESI:
+– Plānot kvalitāti
+IZPILDES PROCESI:
+– Nodrošināt kvalitāti
+PĀRRAUDZĪBAS UN KONTROLES PROCESI:
+– Kontrolēt kvalitāti
+NOSLĒGŠANAS PROCESI: Nav
+
+Kvalitātes nodrošināšana (quality assurance):
+Darbību kopums, kas speciāli radīts, lai novērtētu produkta izstrādāšanas procesu,nodrošināt visu projektam noteikto kvalitātes standartu ievērošanu un procesu lietošanu.
+
+Kvalitātes kontrole  – kontrolēt konkrētus
+projekta rezultātus:
+– nosakot to atbilstību kvalitātes standartiem
+– identificējot veidus, kā izvairīties no kvalitātes
+noviržu cēloņiem
+– pieprasot nepieciešamās izmaiņas
+
+Projekta riska pārvaldība:
+INICIALIZĀCIJAS PROCESI: Nav
+PLĀNOŠANAS PROCESI:
+– Plānot riska pārvaldību
+– Identificēt riskus
+– Veikt risku kvalitatīvo analīzi
+– Plānot riska atbildes
+IZPILDES PROCESI: Nav
+PĀRRAUDZĪBAS UN KONTROLES PROCESI:
+– Pārraudzīt un kontrolēt riskus
+NOSLĒGŠANAS PROCESI: Nav
+
+Tehniskie riski (TR):
+– Prasības
+– Izmantotās tehnoloģijas
+– Sarežģītība un saskarnes
+– Veiktspēja un drošība
+– Kvalitāte
+Ārējie riski (EX):
+– Piegādātāji un apakšuzņēmēji
+– Regulatori
+– Tirgus
+– Klients
+– Laika apstākļi
+
+Izvairīšanās no riska (Avoidance) :
+– Izvairīšanās no riska, novēršot tā cēloņus. No visiem
+riskiem izvairīties nevar, bet no dažiem var
+Riska pāradresēšana (Transference):
+– Nodot atbildību par riska konsekvencēm trešajai pusei
+Riska mīkstināšana (Mitigation):
+– Samazina riska ietekmi mazinot tā iestāšanās vai
+ietekmes varbūtību
+Riska pieņemšana (Acceptance):
+– Pieņem risku. Riska pieņemšana stratēģija var būt:
+Pasīva (pirms riska iestāšanās nekas netiek darīts)
+Aktīva (plāno laika, budžeta un/vai resursu rezervi – buferi)
+
+Projekta izmaksu pārvaldībā:
+INICIALIZĀCIJAS PROCESI: Nav
+PLĀNOŠANAS PROCESI:
+– Novērtēt izmaksas (*)
+– Noteikt budžetu (*)
+IZPILDES PROCESI: Nav
+PĀRRAUDZĪBAS UN KONTROLES PROCESI:
+– Kontrolēt izmaksas
+SLĒGŠANAS PROCESI: Nav
+(*) mazos projektos apvieno.
+
+Aprēķināt tieši (tāmēšana)
+Balstīties uz pieredzes vērtībām (cenu lapa)
+Nošpikot tirgū (konkurenti, pasūtītāji, tirgus pētījumi)
+
+Projekta iepirkumu pārvaldībā:
+INICIALIZĀCIJAS PROCESI: Nav
+PLĀNOŠANAS PROCESI:
+– Plānot iepirkumus
+IZPILDES PROCESI:
+– Veikt iepirkumus
+PĀRRAUDZĪBAS UN KONTROLES PROCESI:
+– Pārraudzīt iepirkumus
+SLĒGŠANAS PROCESI:
+– Slēgt iepirkumus
