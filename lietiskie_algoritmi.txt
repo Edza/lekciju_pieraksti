@@ -578,4 +578,13 @@ Meklēšana (dokumentos):
 	1.solis
 	Ko nozīmē sabojāt vektorus pēc iespējas mazāk(v_i approx v_i''). 
 	||v_i-v_i''||^2
-	\sum_{ij} (v_ij-v''_ij)^2 
+	\sum_{ij} (v_ij-v''_ij)^2
+	
+	V= matrica no vektoriem v_i
+
+T. V=U*D*W, U, W-  ortogonālās un D - diagonāles matrica
+	Ortogonāla matrica reizinot nemaina garumu(pagriež) = ||w|| =1 => ||U w||=1
+	d_1>d_2> ...	
+	D'=(atstājam d lielākos elementus, pārējos nonullējam)
+
+	V'=U*D'*W
