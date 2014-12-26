@@ -479,7 +479,7 @@ M(0,j)=j,M(i,0)=i
 
 for all i,j i in (0 to n-1), j in (0 to m-1)
 M(i,j) if(T[i-1]=T'[j-1]) = M(i-1,j-1)
-	else Min(M(i-1,j-1),M(i-1,j),M(i,j-1))
+	else Min(M(i-1,j-1),M(i-1,j),M(i,j-1))+1
 
 Darbību skaits <= D
 Neapskata "stūrus" UR un DL.
