@@ -25,3 +25,35 @@ Saturs:
 	kvantu šifrēšana
 	kvantu kļūdu korekcija
 	kvantu mehānikas vektoru un matricu formā
+-------
+Grāmatas un materiāli:
+1. lekciju piezīmes e-studijās :)
+2. Nielsen, Chuang, Quantum Computation & quantum information
+3. Hirvensalo. Quantum Computing
+4. Willams. Explorations in quantum computing (pirmās 150-200 lpp)
+
+Prasības: 60% MD, 40% eksāmens
+eksāmens 2h ar palīgmateriāliem papīra formā uzdevumi
+-----------------
+Kvantu bits
+-----------------
+
+Parasts bits: 0 vai 1
+Varbūtisks bits: 0 ar varbūtību p_0 un 1 ar varbūtību p_1
+
+Kvantu bits: 0 ar aplitūdu alpha_0 un 1 ar amplitūdu alpha_1
+komplekso skaitļi alpha |alpha_0|^2 + |alpha_1|^2 = 1
+
+|x+yi|=sqrt(x^2+y^2)
+(x+yi)*=(x-yi)
+
+Kvantu bitu stāvokļi
+|0), |1)
+ar aplitūdām
+
+alpha_0|0) + alpha_1|1)
+
+(4/5)|0) + (3/5)|1)
+
+(1/\sqrt{2})|0) + (1/\sqrt{2})|1)
+------------------------------------
