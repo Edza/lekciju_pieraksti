@@ -1,0 +1,27 @@
+==============================================
+[11.02]
+==============================================
+Pierakstu to kas NAV slaidos.
+-------
+Pārāk daudz mainīgo, lai realizētu ar parastu datoru,
+1 daļiņa 2 mainīgie => N daļiņas 2^N
+
+Kvantu datoru var būvēt no jebkuras sitēmas, kas paļaujas kvantu fizikas likumiem.
+
+Magnētiskā lauka frekvence norāda kādā atomu ietekmē. Atoma kaimiņi arī var ietekmēt frekvenci.
+-------
+Saturs:
+1.Kursa skaitļošanas pamati
+	kvantu biti
+	mērījumi
+	transformācijas
+	kvantu loģikas shēmas
+2.Vienkāršākie kvantu algoritmi
+	parītāte
+	meklēšana starp 4 elementiem
+3.Kvantu meklēšana
+4.Skaitļu sadalīšana reizinātājos
+5.Citas tēmas
+	kvantu šifrēšana
+	kvantu kļūdu korekcija
+	kvantu mehānikas vektoru un matricu formā
