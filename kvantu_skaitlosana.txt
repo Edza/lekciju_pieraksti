@@ -56,4 +56,91 @@ alpha_0|0) + alpha_1|1)
 (4/5)|0) + (3/5)|1)
 
 (1/\sqrt{2})|0) + (1/\sqrt{2})|1)
-------------------------------------
+---------------------
+Saikne ar fiziku
+---------------------
+Piemēri:
+1. Spins
+ietekmē kuram magnēta polam pievelkas.
+|1) = spins uz augšu
+|0) = spins uz leju
+citā virzienā -> pārējās vērtības
+
+piemīt atomu kodoliem, elektroniem u.c.
+
+2. Gaisma
+|1) = gaismas daļiņa, kas lido pa vienu vadu
+|2) = gaismas daļiņa, kas lido pa otru vadu
+
+3. Enerģijas līmeņi
+|0) = zemākā enerģija
+|1) = otra zemākā enerģija
+
+4. Supravadītāji
+Elektronu vilnis, kas nodrošina supravadītājs.
+T.i. daudzi elektroni vienā un tai pašā kvantu stāvokli.
+|0) = vilnis plūst vienā virzienā
+|1) = vilnis plūst otrā virzienā.
+-------------
+Divincenzo kritēriji:
+Kvantu bits = divi fizikāli stāvokļi, ko iespējams perfekti atšķirt.
+Iespēja inicializēt kvantu bitu stāvoklī mūsu izvētejā stāvoklī.
+Iespēja veikt patvaļigas 1 kvantu bitu unitārās transformācijas.
+Iespēja nolasīt informāciju
+Iespēja veikt mijiedarbību starp vairākiem kvantu bitiem.
+--------------
+Parastā informācija				|			Kvantu informācija
+Var nomērīt (pilnībā)					Nevar pilnībā nomērīt (nevar a|0)+b|1)=>(a,b))
+Mērīšanas fakts nemaina saturu			Mērīšanas fakts maina saturu
+Var izdzēst								Nevar izdzēst
+Var kopēt								Nevar kopēt (klonēt)
+Interferē tikai konstruktīvi			Interferē arī destruktīvi
+---------------------------------------
+Stāvokļi a|0)+b|1)
+Transformācijas
+Mērījumi
+
+Mērījumi vienam kvantu bitam:
+1. Standartmērījums
+a|0) +b|1) =>	0 ar varbūtība |a|^2 un stāvoklis = |0)
+				1 ar varbūtību |b|^2 un stāvoklis = |1)
+
+Ja v1 = a|0) + b|1)
+   v2 = c|0) +d|1)
+  ir perpendikulāri kā vektori, tad var mērīt vai kvants ir stāvoklī v1 vai v2.
+  
+1/\sqrt{2}|0)+1/\sqrt{2}|1)=|+)
+1/\sqrt{2}|0)-1/\sqrt{2}|1)=|-)
+------------------
+Transformācijas
+T:{|0) -> a|0) + b|1)
+  {|1) -> c|0) + d|1)
+  
+1.T ir lineāra
+x|0)+y|1)=>x(a|0)+b|1))+y(c|0)+d|1))
+2. T saglabā vektoru garumus
+ a|0) + b|0) -> a'|0) + b'|0) un |a|^2 + |b|^2
+	=> |a'|^2 + |b'|^2 
+
+1 un 2 => unitāra transformācija
+
+Piemēri
+Vienības transformācija
+1. I{|0)->|0);|1->|1)
+
+2. X{|0)->|1);|1->|0)
+
+3. Z{|0)->|0);|1->-|1)
+
+4. H{|0)->1/\sqrt{2}|0)+1/\sqrt{2}|1)
+    {1/\sqrt{2}|0)-1/\sqrt{2}|1)
+	
+H^2 == X^2 == Z^2 == I
+H*Z*H == X 
+H*X*H == Z
+
+H = rotācija +pi/4 , mirror horizontal
+
+rotācija  - alpha (pretēji pulktiņa rādītājam)
+|0) -> cos alpha |0) + sin alpha |1)
+|1) -> -sin alpha |0) + cos alpha |1)
