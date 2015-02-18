@@ -141,6 +141,58 @@ H*X*H == Z
 
 H = rotācija +pi/4 , mirror horizontal
 
-rotācija  - alpha (pretēji pulktiņa rādītājam)
+rotācija  - alpha (pretēji pulksteņa rādītāja virzienam)
 |0) -> cos alpha |0) + sin alpha |1)
 |1) -> -sin alpha |0) + cos alpha |1)
+
+==============================================
+[18.02]
+==============================================
+Unitāru transformāciju īpašības.
+
+Kvantu skaitļošana = lineārā algebra.
+a|0) = b|1) = vektors (a)
+					  (b)
+Unitāra tasformācija
+
+T:{|0) -> a|0) + b|1)
+  {|1) -> c|0) + d|1)
+
+  (alpha) _\ (a c)(alpha)
+  (beta)   / (b d)(beta )
+ 
+----------------------------
+Vispārīgas kvantu sistēmas
+Bāzes stāvokļi : |1), |2) ... |k)
+Vispārīgs stāvoklis
+|\Tau) = \sum_{n=1} ^k alpha_n|n)
+\sum_n=1^k |alpha_n|^2 = 1
+
+Mērījumi:
+1 ar varbutibu |alpha_1|^2
+..
+n ar varbutibu |alpha_n|^2
+
+Transformācijas:
+{|1) -> a_11|1) + ... + a_1k|k)
+{...
+{|k) -> a_k1|1) + ... + a_kk|k)
+
+derīgi stāvokļi pāriet par derīgiem
+----------------------------
+Kā noteikt vai trasnformācija ir unitāra?
+1) transfomācijas, kas ir unitāras:
+I,H,X,Z
+2) transformācijas, kas nav unitāras:
+1.
+{|0)->|0)
+{|1)->|0)
+piem 1/\sqrt{2}|0)+1/\sqrt{2}|1)
+{|0)->|0)
+{|1)->-12/13|0)+5/13|1)
+
+Kritēriji:
+U - vispārīga kvantu stāvokļa transformācija
+0) derīgi kvantu stāvokļi attēlojas, par derīgiem kvantu stāvokļiem
+1) bāzes vektori ir ar garumu 1 un ir perpendikāli viens otram
+2) U^tU=I  ^t kopleksi saistītā matrica = transpocija(atspoguļo pret galveno diagonāli) un elementus aizstāj par kompleksi saistītajiem.
