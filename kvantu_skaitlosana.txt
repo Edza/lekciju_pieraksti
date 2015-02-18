@@ -195,4 +195,36 @@ Kritēriji:
 U - vispārīga kvantu stāvokļa transformācija
 0) derīgi kvantu stāvokļi attēlojas, par derīgiem kvantu stāvokļiem
 1) bāzes vektori ir ar garumu 1 un ir perpendikāli viens otram
-2) U^tU=I  ^t kopleksi saistītā matrica = transpocija(atspoguļo pret galveno diagonāli) un elementus aizstāj par kompleksi saistītajiem.
+2) U^+U=I  ^+ kopleksi saistītā matrica = transpocija(atspoguļo pret galveno diagonāli) un elementus aizstāj par kompleksi saistītajiem.
+
+Piemēri.
+
+Heiristika 2 d.
+ja |0) -> a|0) +b|1)
+tad otram vektoram jābūt
+ |1) -> b|0) -a|1)
+ vai 
+ |1) -> -b|0) +a|1)
+ 
+matricas ar komplekciem koificentiem.
+4. piemērs
+|0) -> 1/\sqrt{2}|0) + i/\sqrt{2}|1)
+|1) -> i/\sqrt{2}|0) + 1/\sqrt{2}|1)
+
+(u,v) = sum u_i^(*)*v_i (pirmā vektora elementa komplesi saistīto reizina ar otra vektora elementu)
+
+U-unitāra <=> U^+U = I
+
+Apgriezstā transformācija.
+Jebkurai unitārai trasformācijai eksistē apgrizetā trasnformācija U^-1 = U^+
+
+----------------------------------
+Vairāki kvantu biti
+
+k kvantu biti
+var izveidot bāzes stāvokļus kuriem numur ir k bitu virknītes.
+
+Vispārīgs stāvoklis ir bāzes vektoru kombinācijas ar amplitūtām.
+a|0...0)+b|0...01)+c|0...10)
+Amplitūdu absolūto vērtību kvadrātu summa = 1.
+
