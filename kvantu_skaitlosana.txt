@@ -393,4 +393,67 @@ X izplida otru reizi pēc tam
 CNOT izplida arī otru reizi pēc tam
 
 Elementi jānonullē pretējā secībā kā tika rēķināts.
---------------------------------
+================================
+Kvantu algoritmi
+
+Doiča (paritātes algoritms)
+Melnā kaste
+f: 1 bit => 1 bit
+Uzdevums noskaidrot (f(0)+f(1)) mod 2
+Cik reizes jādarbina melnā kaste?
+ Klasiski 2
+ Kvantiski 1
+
+Ko nozīmē MK kvantu pasaulē?
+1. |x 0) -> |x f(x))
+
+2. |x 0) -> |x f(x))
+   |x 1) -> |x not(f(x)))
+   
+Doiča
+
+---H-------| MK |- |H|-
+---|X|-|H|-|    |------
+Mēra, ņem 1. bitu kā atbildi
+punkts 1 pirms 
+punkti 2 pēc melnās kastes
+
+1/2|00)-1/2|01)+1/2|10)-1/2|11)
+
+Ja f(0)=f(1)
+|x 0)->|x 0)
+|x 1)->|x 1)
+Rezultāts nemainās
+
+Ja f(0)=0; f(1)=1
+|0t)->|0t)
+|10)->|11)
+|11)->|10)
+
+Vienkāršošana
+
+Jauna melnās kastes definīcija (MK2)
+ieeja = x&y
+|x)->|x),  ja f(x)=0
+|x)->-|x), ja f(x)=1
+
+MK2|x) = MK|x(0XH))
+
+Doiča algoritms caur MK2.
+
+|0)-H-MK2-H
+
+|1) un -|1) neatšķirami
+
+----------------------------------
+Meklēšana starp 4 elementiem.
+MK x in{00,01,10,11}
+f(x)=1 tieši 1 x.
+Uzdevums: atrast x.
+Klasiski: 3 prasīšanas
+Kvantiski: 1 reizi
+
+MK2 
+
+|0) -H-|MK 2|---#-H--
+|0) -H-|    |-H-o----
