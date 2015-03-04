@@ -380,3 +380,17 @@ T{|x_1 x_m) -> |11..10)
  
 T{|11..10)->|x_1 x_m)
  {|11..10)->|y_1 y_m)
+--------------------------------
+Vai ar kvantu-mehāniski var izskaitļot vius to pašu, ko var ar tradicionālu datoru?
+NOT = X
+AND x y = toffolli |x y 0)-> | x y x&y)
+
+Kā tikt vala no garbage.
+Tīra skaitļošana(apakšprogrammas).
+|xyz0.....0) ->|xyz,f(x),000000)
+
+X izplida otru reizi pēc tam
+CNOT izplida arī otru reizi pēc tam
+
+Elementi jānonullē pretējā secībā kā tika rēķināts.
+--------------------------------
