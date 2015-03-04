@@ -341,3 +341,42 @@ Kvantu loģiskās shēmas:
 -
 -
 (katra līnija atbilst vienam kvantu bitam, uz līnijas pieraksta tranformācijas, kas jāizmanto šim bitam, controlled not pieraksta ar pilnu un tukšu bumbiņu starp 2 kvantu bitiem, kur melnais aplis(nosaka pielietošanu) ir 1. bitā un tukšais (uz kuru pielieto) 2. bitam)
+==========================================
+04.03.2015
+==========================================
+Atkārtojums: Loģiskās shēmas
+
+konstrollētā U transformācija, pielietojam U, ja pirmais(kontroles) bits ir |1).
+
+Dubultais kontrolētais not, ja jebukurš no pirmiem diviem bitiem ir |0), tad nemainās
+ja |11) tad 3 bits mainās uz pretējo.
+Toffoli elements.
+
+Universalitāte
+Loģisko elementu kopa ir universāla, a jebkurai unitārai U, ja to var realizēt kā virkni no šādiem elementiem
+U=U_1 U_2 ... U_n
+U_i elements no logīsko elementu kopa
+
+T. CNOT+1 bita unitāas transformācijas  - universāla kopa.
+
+Fakts 1.
+
+var realizēt kontrolēto U ar patvaļīgu skaitu kontrolēto bitu.
+
+Fakts 2.
+
+Jekurai U-unitārai.
+U=U_1 U_2 ... U_n
+U_i aiztiek tikai 2 stāvokļus.
+
+U_i={|x_1 ... x_n) -> a|x_1...x_m) + b|y_1 ... y_m)
+    {|y_1 ... y_m) -> c|x_1...x_m) + d|y_1 ... y_m)
+	{|z_1 ... z_m) -> |z_1 .. z_m)
+	ja |z_1 ... z_n)=/= |x_1 .. x_m)
+	   |z_1 ... z_n)=/= |y_1 .. y_m)
+
+T{|x_1 x_m) -> |11..10)
+ {|y_1 y_m) ->|11..10)
+ 
+T{|11..10)->|x_1 x_m)
+ {|11..10)->|y_1 y_m)
