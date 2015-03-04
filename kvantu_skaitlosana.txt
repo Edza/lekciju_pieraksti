@@ -296,4 +296,48 @@ Nomēram katru daļinu atsevišķi
 
 Divainais:
 - 1. daļina mērīšana maina 2. daļiņas stāvokli pat ja tā atrodas uz Mēness.
+----------------------------------------------------
+25.02.15
+----------------------------------------------------
+Divi kvantu biti:
+	a|00) + b|01) + c|10) + d|11), |a|^2 + ... = 1
+Unitāru transformāciju 2 (un vairāk) kvantu bitiem:
+	1) 1 kvanta bitu transformācijas ir iespējams pielietot jebkurams no 2 bitiem
+	U: {|0) -> a|0) + b|1) U2: { |00) -> a|00) + b|01)
+	    |1) -> c|0) + d|1)	     |01) -> c|00) + d|01)
+				     |10) - > a|10) + b|11)
+				     |11) - > c|10) + d|11)
 
+	I X U, kur I pirmais bits un U otrais
+
+H: (adamār transf) { |0) -> 1/sqrt(2)|0) + 1/sqrt(2)|1)
+		     |1) -> 1/sqrt(2)|0) - 1/sqrt(2)|1)
+
+1) Pieleitot H 2. bitam
+	P1:
+	1/sqrt(2)|00) + 1/sqrt(2)|11)
+	1/sqrt(2)(1/sqrt(2)|00) + 1/sqrt(2)|01)) + 1/sqrt(2)(1/sqrt(2)|10) - 1/sqrt(2)|11))
+	sareizina un iegūst 1/2|00) + 1/2|01) ...
+	P2:
+	1/sqrt2(1/sqrt2|10) + 1/sqrt2|11)) - 1/sqrt2(1/sqrt2|10) - 1/sqrt2|11))
+	1/2 ( |10) + |11) - |10) + |11))
+	|11)
+
+Controlled NOT:
+{|00) -> |00) {|0x)->|0x)
+|01) -> |01)   |1x)-|1not(x))
+|10) -> |11)
+|11) -> |10)
+
+Skaitļošanas modelis:
+	1) n kvantu biti
+	2) var pielietot 1 kvantu bita transf, controlled not
+	3) sākuma stāvoklis |000....0)
+	4) pielieto transformācijas, mēra beigu stāvokli
+
+Kvantu loģiskās shēmas:
+-
+-
+-
+-
+(katra līnija atbilst vienam kvantu bitam, uz līnijas pieraksta tranformācijas, kas jāizmanto šim bitam, controlled not pieraksta ar pilnu un tukšu bumbiņu starp 2 kvantu bitiem, kur melnais aplis(nosaka pielietošanu) ir 1. bitā un tukšais (uz kuru pielieto) 2. bitam)
