@@ -228,3 +228,72 @@ Vispārīgs stāvoklis ir bāzes vektoru kombinācijas ar amplitūtām.
 a|0...0)+b|0...01)+c|0...10)
 Amplitūdu absolūto vērtību kvadrātu summa = 1.
 
+--------------------------------
+2 kvantu biti
+
+1. bits |0), 2. bits |1)
+=> |01)
+
+Tenzoru reizinājums
+3. a|0)+b|1)  c|0)+d|1)
+=> a|0)+b|1) (x)  c|0)+d|1) = ac|00) + bc|10) + ad|01) + bd|11)
+
+Apgieztais uzdevums
+atrast a,b,c,d
+
+piemērs 1.
+var.
+
+piemērs 2.
+1/\sqrt{2}|00) + 1/\sqrt{2}|11)
+
+a*d = 0 
+b*c = 0
+a*c = 1/\sqrt{2}
+b*d = -1/\sqrt{2}
+
+nav iespējams
+
+1) stāvoklis 1/\sqrt{2}|00) + 1/\sqrt{2}|11) ir iespējmas
+2) Šādas stāvoklis var rastiess tikai caur mejiedarbību starp 1. un 2. bitu.
+
+Terminoloģija:
+1) ja var uzrakstīt kā tenzoru reizinājumu, jad tas ir reizinājuma stāvoklis(product state)
+2) tādus ko nevar sauc par sapīto (entangled)
+3) reizinājuma = nesapītais (unentangled)
+
+Piemēri:
+a/b = (ac/bc) = Q 
+a=Qb
+a^2+b^2=1
+(Q^2+1)b^2=1
+b= \sqrt(1/(Q^2+1))
+
+Mērījumi 2 kvantu bitiem:
+pilns: a_00|00)+a_01|01)+a_10|10)+a_11|11)
+=> 00 ar varbūtību |a_00|^2
+...
+1 bits:
+	a_00|00)+a_01|01)+a_10|10)+a_11|11)
+=> 0 ar varbūtību |a_00|^2 |a_01|^2
+=> 1 ar varbūtību |a_10|^2 |a_11|^2
+
+paliek pāri: 
+ja iegūst 0
+(a_00/\sqrt(|a_00|^2+|a_01|^2)) |00) + (a_01/\sqrt(|a_00|^2+|a_01|^2))
+
+ja iegūst 1
+a_10/\sqrt(|a_10|^2+|a_11|^2)) |00) + (a_11/\sqrt(|a_10|^2+|a_11|^2))
+
+---------
+Sapītie stāvokļi un knvanto mehānikas paradoksi.
+
+|00) + |11)
+
+Nomēram katru daļinu atsevišķi
+=> |00)
+=> |11)
+
+Divainais:
+- 1. daļina mērīšana maina 2. daļiņas stāvokli pat ja tā atrodas uz Mēness.
+
