@@ -561,3 +561,45 @@ R|1)=|1)
 R|x|=-|x),x>=2
 
 D = M^-1RM
+-------------------------
+Stāvokļu telpas apakškopas
+
+Algoritma stāvoklis = a|1)+...a|i-1)+b|i)+a|i+1) ... a|N)
+
+Pierāda pēc indukcijas.
+
+Pēc k soļiem, ja i ir meklējmais
+sin((2k+1)\alpha) + (cos(2k+1)\alpha)/\sqrt{N-1} *\sum_{j=/=i} |j)
+
+\alpha = arcsin(1/\sqrt{N})
+
+lai sin =1, tad (2k+1)\alpha=\pi/2
+k = \pi/(4\alpha)
+
+pie lieliem N
+k= \pi\sqrt{N}/4
+
+precīzi:
+k= \pi/(4arcsin(1/\sqrt{N}))
+
+P=sin^2((2k+1)\alpha)=sin^2((a+1)arcsin(1/\sqrt{N}))
+
+aptuveni:
+sin^2(2\sqrt{N}*k)
+------------------
+Kas notiek ja ir vairāki meklētie objekti.
+objektu skaits = l
+(a) l-zināms
+(b) l-nezināms
+
+(a): \pi/4 \sqrt{N} => \pi/4 \sqrt{N/l}
+
+(b) Piemērs:
+reižu skaits = \pi/8 \sqrt{N}
+1. = l=4, tad viss ir labi
+2. l=1 ar varbutibu 1/2 pareizo
+3. l=16 ar varbūtību 0 
+
+Algoritms 2
+Darbina pamatalgoritmu ar reiūz skaitu
+k=2^i;k<={\pi/4\sqrt{N}}
