@@ -457,3 +457,46 @@ MK2
 
 |0) -H-|MK 2|---#-H--
 |0) -H-|    |-H-o----
+=================================
+11.03.2015
+=================================
+Meklēšana
+
+Dots: x_1 ... x_n \in {0,1}
+c-> x_i
+Uzdevums: atrast i:x_i=1
+Klasiski: N jautājumu
+Kvantiski: \sqrt{N} jautājumi
+
+Der jebkurai pilnās pārlases problēmai.
+
+--------------------------------
+Difūzijas transformācija
+
+|1), |2), |N)
+
+|1)->(-1+2/N)|1) + 2/N|2) .. + 2/N|N)
+|1)->2/N|2) + (-1+2/N)|2) .. + 2/N|N)
+...
+|1)->2/N|2) + 2/N|2) .. + (-1+2/N)|N)
+
+ir unitāra
+
+Apgalvojums: Šī ir vienīgā netriviālā unitārā matrica ar formā
+|1)->a|1) + b|2) .. + b|N)
+|1)->b|2) + a|2) .. + b|N)
+...
+|1)->b|2) + b|2) .. + a|N)
+
+Grovera algoritms(1996)
+[Pieņemam, ka viens i: x_i=1]
+
+Sākuma stāvoklis: (visi ar vienādu varbūtību)
+(1/\sqrt{N})\sum_i=1^n |N)
+
+Q ir MK2 melnā kaste
+D ir difūzijas transformācija
+
+floor(pi/4\sqrt{N}) reizes: Q un tad D
+Mēra stāvokli
+Rezultāts i:x_i=1 ar varbūtību ~1
