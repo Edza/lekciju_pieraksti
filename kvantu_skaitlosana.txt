@@ -500,3 +500,64 @@ D ir difūzijas transformācija
 floor(pi/4\sqrt{N}) reizes: Q un tad D
 Mēra stāvokli
 Rezultāts i:x_i=1 ar varbūtību ~1
+-------------------------------------
+Difūzijas transformācijas jēga
+
+a_1|1) + ... + a_N|N)
+vidējais v= sum a / N
+
+(v+d_1)|1) + (v+d_2)|2) + ... + (v+d_N)|N)
+  | D
+  v
+(v-d_1)|1) + (v-d_2)|2) + ... + (v-d_N)|N)
+  
+Spogūļattēls amplitūdām pret vidējo vērtību. (atspoguļojums, reflection against average).
+
+----------------
+Grovera algoritma jēga
+Uz pirkstiem:
+Pēc tam, kad Q nomaina 1 elementam zīmi uz pretējo, D palielina šī elementa amplitūdu, mazliet samazina pārējo stāvokļu amplitūdu.
+
+
+||||||
+-----
+
+
+ |Q
+ V
+
+ |||||
+-----
+|
+
+ |D
+ V
+
+|
+|
+||||||
+-----
+ 
+
+Cits skats uz defūzijas transformāciju.
+
+A) V|1)+ .... + V|N)
+   |D
+   V
+  V|1)+ .... + V|N)
+   
+B) d_1|1)+ .... + d_N|N)   
+   |D
+   V
+   -d_1|1)- .... - d_N|N) 
+   
+Apgalvojums
+D|T_start)=|T_start)
+D|T)=-|T),ja T _|_ |T_start)
+
+M|1)=1/\sqrt{N}|1) + 1/\sqrt{N}|N) (H|1)=1/\sqrt{2}|1)+1/\sqrt{2}|2))
+
+R|1)=|1)
+R|x|=-|x),x>=2
+
+D = M^-1RM
