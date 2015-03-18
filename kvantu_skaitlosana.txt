@@ -601,5 +601,22 @@ reižu skaits = \pi/8 \sqrt{N}
 3. l=16 ar varbūtību 0 
 
 Algoritms 2
-Darbina pamatalgoritmu ar reiūz skaitu
+Darbina pamatalgoritmu ar reižu skaitu
 k=2^i;k<={\pi/4\sqrt{N}}
+
+Grovera algoritms
+Dots x_1 .. x_n in {0,1}
+Uzdevums atrast i:x_i=1
+\sum_i a_i|i)-> \sum_i a_i (-1)^{x_i}|i)
+Grovera algoritms
+1 meklējamais elements => \pi/4\sqrt{N}
+l meklējamie elementi => \pi/4\sqrt{N/l}
+
+Izpilda Grovera algoritmu
+k_0=\pi/4 \sqrt{N}
+k_1=k_0/3
+k_{n+1}=k_n
+izmanto ceil(k_n) soļus
+līdz ceil(k_n)=0
+
+Kvantu Furje tranformācija
