@@ -785,6 +785,83 @@ satur visus atlikmus
 Teorēma: katram pirmskaitlim p ekistē primitīvā skane pēc mod p.
 Apgalvojums g^{p-1} mode p =1
 
-Kā varam izmanto primitīvo skani?
+Kā varam izmanto primitīvo sakni?
 a=3^b mod 7
 kārta r = lcd(7-1,b)/b
+-------------------------
+
+Kļūdu korekcija kvantu datoriem
+
+Data => Kļūdainie dati
+	<-
+	Kļudu korekcija
+
+Klasiski
+1) Atkārtošana
+	0->000
+	1->111
+2) Kļūdu korekciju kodi
+
+Vēsturiksi : kļūdu korekcija kvantu datoram nav iespējama.
+Argumenti:
+1. Ir bezgalīgi daudz iespējamo kļūdu.
+	Jo iespējmas bezgalīgi daudz unitāro transformāciju.		Reducējas uz galīgu skait pamatkļudu.
+2. Informāciju nevar duplicēt.
+	Nav cloning transfomācijas.									
+3. Lai uzzinātu, kad kļūda notikusi, jāmēra kvantu stāvoklis.	Mērām tikai to kāda kļuda ir notikusi,
+																bet ne to kas var izjaut kvantu stāvokli.
+
+Tagad: argumenti netraucē, algoritmi ir  kvantu
+
+Kļūdu modelis:
+- k kvantu biti -> n kvantu biti
+- kļūdas skar <= d kvantu bitus
+Variants: katram kvantu bitu skar neliela neprecizitāte (~\epsilon)
+Neprecizitāte ~\epsilon === Lielāka kļūda ar varbūtiību n\epsilon
+n biti, katram kļudas kļudas varbūtība \epsilon => n\epsilon kļūdas varbūtība
+
+Quantum error corection
+|T)->|T')- kļūdas -> |T'') - korekcijas -> |T')
+
+Fault-tolerant computation.
+
+Mērķis:
+1 kvantu biti => 9 kvantu biti,
+	var labot 1 kļūda
+Vispārijums atkārtošanai.
+
+Kādas kļūdas ir jālabo?
+
+1/\sqrt{2} |000) +1/\sqrt{2} |111)
+
+1) X jebkuram bitam
+2) stāvokļa nobīdes jebkuram bitam
+	{ |0) -> \sqrt{1-\epsilon}|0) + \sqrt{epsilon}|1)
+	{ |1) -> -\sqrt{\epsilon}|0) + \sqrt{1-epsilon}|1)
+3) Spontāni mērījumi uz jebkuru bitu
+
+Pamatkļudas
+1) Kļudas nav
+2) X
+3) Z
+4) Y = XZ
+
+Teorēma: ja var labot X,Y,Z, tad var labot jebkuru kļūdu, kas skar 1 kvantu bitu.
+Teorēma 2: ja var labot kombināciju no X,Y,Z uz <= bitiem tad var labot jebkuru kļūdu, kas skar <= d
+
+Spontāns mērījums
+|T)=1/\sqrt{2} |000) +1/\sqrt{2} |111)
+Z|T)=1/\sqrt{2} |000) -1/\sqrt{2} |111)
+|000) = normalizēta summa
+|111) = normalizētā starpība
+
+Vispārīgi:
+	ja |T) -kļuda uz 1.bitu-> |T')
+	|T')=a|T)+bX|T)+cY|T)+dZ|T)
+	Ja
+	 |T)->|T)|0)
+	X|T)->|T)|X)
+	Y|T)->|T)|Y)
+	Z|T)->|T)|Z)
+	--------------
+	
