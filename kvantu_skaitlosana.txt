@@ -717,3 +717,53 @@ tad F|T) iegūst ceil(kN/P) vai floor(kN/P) ar varbutību c (c ir konstante)
 
 Lemma 2: Ja N>=2p^2, tad no
 	ceil(kN/P) vai floor(kN/P) var veinozīmīgi noteikt k un p.
+==============================
+25.03.2015
+==============================
+Skaitļa sadalīšana reizinātājos.
+Dots N=p*q, p,q - pirmskaitļi
+Atrast p un q
+
+Var pieņemt:
+	p=/=2 un q=/=2 => p un nepāra
+	p=/=q
+
+Skaitļa sadalīšana reizinātojos reducējas uz perioda meklēšanu.
+(Skaitļa sadalīšana reizinātājos)<= (perioda meklēšana)
+(<= \leq reducējas)
+-------------------------------
+1) Skaitļa sadalīšana reizinātājos <= Netriviala 1 kvadrātskane pēc mod N.
+
+Def 1 kvadrāt skane pēc mod N-1
+x: (x^2) = 1 (mod N)
+
+Def triviālās kvadrātskanes x=+-1
+
+x^2=1 (mod N)
+(x-1)(x+1)=0 (mod N)
+
+gcd(N,x-1)=p
+gcd(N,x+1)=q
+
+2) Netriviala 1 kvadrātskane pēc mod N. <= Skaitļa kārtas pēc mod N
+
+Def. a kārta pēc mod N,
+	mazākais x: a^x = 1 (mod N)
+	Ja gcd(a,N)=1, tad šāds x vienmēr eksistē.
+
+Algoritms:
+1) Uzģenerē nejaušu a \in{2,...,N-1}
+2) Ja gcd(a,N)=/=1, tad p=gcd(a,N), q={N/p}
+3) x= (a kārta pec N) (a^x) = 1 (mod N)
+4) Ja x-nepāra, sāk no jauna.
+5) Ja x-pāra, pārbauda, vai a^{x/2} ir netriviālā sakne.
+
+Lemma 1. P{x-nepāra} <= 1/4
+Lemma 2. P{x-pāra, bet a^{x/2}=-1 (mod N) } <= 1/3  //triviālā kvadrātskane
+
+Pr[alog. ir veiksmīgs]>=1-1/4-1/3 = 5/12
+
+3) (Kārta pēc mod N) <= Periodu meklēšana
+	f(x)=a^x (mod N)
+	kārta r : a^r= 1 (mod N)
+		f(x+r)=a^{x+r} mod N = a^x mod N = f(x)
