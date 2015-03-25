@@ -864,4 +864,28 @@ Vispārīgi:
 	Y|T)->|T)|Y)
 	Z|T)->|T)|Z)
 	--------------
+
+1 bits->Kods, kas labo X -> 3 biti -> 3x Kods, kas labo Z -> 9 biti
+
+Kvantu atkārtojumu kods
+	\alpha|0) +\beta|1) ->  \alpha|000) + \beta|111)
 	
+	CNOT uz divām svaigām nullēm skatoties uz 1. bitu.
+	
+Kā var noteikt, vai X kļūda ir notikusi?
+Klasiski, nomēram, vai visi ir vienādi, tad kļūda nav notikusi, citādi zinām bits.
+
+kvantiski pievieno vēl divus bitus, kur
+sakotnejie biti ir x,y,z
+jaunie biti ir CNOT(x)CNOT(z) un CNOT(y)CNOT(z)
+nomēram šos bitus, tie ļauj identvicēt kurā bitā ir kļūda
+
+Z var noreducēt uz X ar H trasformāciju
+HZH
+
+H|0) = |+)
+H|1) = |-)
+
+\alpha|0)+\beta|0)->\alpha|+++)+\beta|---)
+
+CNOT uz divām svaigām nullēm skatoties uz 1. bitu., Tad uz visiem bitiem H.
