@@ -977,3 +977,49 @@ Problēma E var mērīt mazu skaitu bitu, lai izliktos par torksni līnijā.
 Privātuma amplifikācija (pielieto hash funkciju)
 m/4 bitu atslēga
 ->m/8 bitu atslēga
+--------------------------------------
+Kvantu stāvokļi vektoru un matricu formā
+--------------------------------------
+1. Kompleksi skaitļi
+	(x+yi)*=x-yi
+	(x+yi)*(x+yi)=x^2+y^2
+	|a|^2=aa*
+2. Kvantu stāvokļi kā vektori
+	|T) = (a_1)
+	      (a_2)
+	      (..)
+	      (a_n)
+
+(T| = (a_1*,...,a_n*)
+(T|  |T)
+bra  ket
+
+Speciālgadījums:
+|i) = 0|1) + ... 1|i) + ...+0|n)
+
+
+(T| * |\Phi) = skalārais reizinājums  T |phi
+
+Iegūt j-elementa amplitūdu
+(i|\Phi) === (i| * |\Phi)
+
+(\Phi|\Phi)=1
+
+Ja \Phi un T ir perpendeikulari, tad
+(\Phi|T) = 0
+
+Mērījums bra-ket formatā
+T mēra pret |0), |1)
+T = \alpha|0) + \beta|1)
+
+\alpha = (0|T)
+\alpha* = (T|0)
+
+|\alpha|^2 = (0|T)(T|0)
+|\beta|^2 = (1|T)(T|1)
+
+Vispārīgi mērījumi
+|T) pret |T_1),|T_2) .... |T_m)
+
+|T) = \alpha|T_1).....
+|T_i|^2=(T_i|T)(T|T_i)
