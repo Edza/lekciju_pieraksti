@@ -1023,3 +1023,15 @@ Vispārīgi mērījumi
 
 |T) = \alpha|T_1).....
 |T_i|^2=(T_i|T)(T|T_i)
+
+|T)(T| - blīvumu matrica. (Density matrix)
+
+Mērījums:
+(T_i|T)(T_i|T)=(T_i|\ro|T_i)
+Lietojums
+Mērot iegūst vienu no vairākiem stāvokļiem ar kādām varbūtībām. Šādu stāvokli sauc par jaukto stāvokli. To var aprakstīt ar blīvuma matricu.
+Jaukts tāvoklis -> blīvuma matrica
+\ro=p_1|T_1)(T_1|+...+p_n|T_n)(T_n|
+
+Eksāmena datums
+Trešdiena 22.04 10:30-12:30
