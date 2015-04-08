@@ -948,3 +948,32 @@ Bennett-Brassand-1984
 Iegūst protoatslēgu.
 Ja E nemēra kvantu stāvokļus, ko A ir nosūtījusi, tad A un B iegūst identiskas protoatslēgas
 Klausoties tikai info no 3. un 4. soļa
+
+Kas notiek, ja E mēra A kvantu bitus.
+Ja E uzmin pareizo mērījumu, tad A,B,E iegūsto to pašu stāvokli
+Ja E kļūdās, tad B un E iegūst random stavokoļus
+
+Sekas:
+E var uzzināt dažus bitus no protoatslēgas
+Citi biti protoatslēgas biti tiek sabojāti.
+
+BB84:
+6. No protoatslēgas m bitiem, m/2 izmanto pārbaudei (vai A un B biti sakrīt).
+	Ja nesakrīt => kāds viņus noklausās
+	Ja sakrīt => pārējie m/2 biti atslēgā.
+
+Pieņēmums visi klasiskie dati ir nosūtī, bet nevar izmainīti, bet visu var noklausīties.
+BB84(korektais):
+6. Ja starp m/2 pārbaudes bitiem.
+	atšķiras >=epsilon(m/2) e=1/100 => kāds noklausās
+	citādi izmantojam pārējos bitus par atslēgu
+7. A un B pielieto kļūdu korekciju savām protoatslēgām.
+	m/2 biti atšķiras
+	m/4 biti sakrīt visi biti.
+
+Problēma E var mērīt mazu skaitu bitu, lai izliktos par torksni līnijā.
+
+8. <=epsilon m par m/4 bitiem.
+Privātuma amplifikācija (pielieto hash funkciju)
+m/4 bitu atslēga
+->m/8 bitu atslēga
