@@ -889,3 +889,62 @@ H|1) = |-)
 \alpha|0)+\beta|0)->\alpha|+++)+\beta|---)
 
 CNOT uz divām svaigām nullēm skatoties uz 1. bitu., Tad uz visiem bitiem H.
+==========================
+08.04.2015
+==========================
+Kvantu kripogrāfija.
+
+1. Simetriskā kriptogrāfija.
+Abiem ir kopīga slepena atslēga.
+
+Ziņojums m
+Atslēga k
+
+1)Alise c=f(m,k)
+2)Bobs m=f^{-1}(c,k)
+
+2. Asimetriskā kriptogrāfija.
+E noklausās
+
+Protokols kura rezultātā A un B nonāk pie kopīgas slepenās atslēgas, bet E to nezina.
+
+Kvantu atslēgu sadale (Quantum key distribution)
+- Protokols, kas pārraida kvantu bitus,
+- Garantēti (pierādāmi) drošs
+Balstās uz kvantu fizikas matemātisko modeli.
+
+Mērījums:
+\alpha|0) + \beta|1) -> 0 vai 1
+4 stāvokļi |0), |1), H|0), H|1)
+2 merījumi
+  1) pret |0), |1)
+	|0)->|0)
+	|1)->|1)
+	H|0),H|1) vienāda varbūtība dabūt |0),|1)
+  2) pret H|0), H|1)
+	H|0)->H|0)
+	H|1)->H|1)
+	|0),|1) vienāda varbūtība dabūt H|0),H|1)
+Kopsavilkums
+	|0)vai|1)	H|0)vai H|1) 
+|0)	|0)		random
+|1)	|1)		random
+H|0)	random		H|0)	
+H|1)	random		H|1)
+
+Bennett-Brassand-1984
+1. A nosūta B stāvokļus no {|0), |1), H|0), H|1)}
+	|t_1),|t_2), ... |t_m)
+2. B mēra katru bitu ar nejauši izvēlētā bāzē no {|0) un |1), H|0) un H|1)}
+3. A katram i paziņo vai t_i pieder{|0), |1)} vai {H|0), H|1)}
+4. B paziņo lietotos mērījumus, A un B atmet i, kur pielietots nepareizais mērījumus
+5. A un B pārkodē 
+	piemēram
+	|0) -> 0
+	|1) -> 1
+	H|0) -> 0
+	H|1) -> 1
+
+Iegūst protoatslēgu.
+Ja E nemēra kvantu stāvokļus, ko A ir nosūtījusi, tad A un B iegūst identiskas protoatslēgas
+Klausoties tikai info no 3. un 4. soļa
