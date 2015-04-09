@@ -582,10 +582,10 @@ k= \pi\sqrt{N}/4
 precīzi:
 k= \pi/(4arcsin(1/\sqrt{N}))
 
-P=sin^2((2k+1)\alpha)=sin^2((a+1)arcsin(1/\sqrt{N}))
+P=sin^2((2k+1)\alpha)=sin^2((a+1)/arcsin(1/\sqrt{N}))
 
 aptuveni:
-sin^2(2\sqrt{N}*k)
+sin^2(2/\sqrt{N}*k)
 ------------------
 Kas notiek ja ir vairāki meklētie objekti.
 objektu skaits = l
