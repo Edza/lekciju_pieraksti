@@ -889,3 +889,149 @@ H|1) = |-)
 \alpha|0)+\beta|0)->\alpha|+++)+\beta|---)
 
 CNOT uz divām svaigām nullēm skatoties uz 1. bitu., Tad uz visiem bitiem H.
+==========================
+08.04.2015
+==========================
+Kvantu kripogrāfija.
+
+1. Simetriskā kriptogrāfija.
+Abiem ir kopīga slepena atslēga.
+
+Ziņojums m
+Atslēga k
+
+1)Alise c=f(m,k)
+2)Bobs m=f^{-1}(c,k)
+
+2. Asimetriskā kriptogrāfija.
+E noklausās
+
+Protokols kura rezultātā A un B nonāk pie kopīgas slepenās atslēgas, bet E to nezina.
+
+Kvantu atslēgu sadale (Quantum key distribution)
+- Protokols, kas pārraida kvantu bitus,
+- Garantēti (pierādāmi) drošs
+Balstās uz kvantu fizikas matemātisko modeli.
+
+Mērījums:
+\alpha|0) + \beta|1) -> 0 vai 1
+4 stāvokļi |0), |1), H|0), H|1)
+2 merījumi
+  1) pret |0), |1)
+	|0)->|0)
+	|1)->|1)
+	H|0),H|1) vienāda varbūtība dabūt |0),|1)
+  2) pret H|0), H|1)
+	H|0)->H|0)
+	H|1)->H|1)
+	|0),|1) vienāda varbūtība dabūt H|0),H|1)
+Kopsavilkums
+	|0)vai|1)	H|0)vai H|1) 
+|0)	|0)		random
+|1)	|1)		random
+H|0)	random		H|0)	
+H|1)	random		H|1)
+
+Bennett-Brassand-1984
+1. A nosūta B stāvokļus no {|0), |1), H|0), H|1)}
+	|t_1),|t_2), ... |t_m)
+2. B mēra katru bitu ar nejauši izvēlētā bāzē no {|0) un |1), H|0) un H|1)}
+3. A katram i paziņo vai t_i pieder{|0), |1)} vai {H|0), H|1)}
+4. B paziņo lietotos mērījumus, A un B atmet i, kur pielietots nepareizais mērījumus
+5. A un B pārkodē 
+	piemēram
+	|0) -> 0
+	|1) -> 1
+	H|0) -> 0
+	H|1) -> 1
+
+Iegūst protoatslēgu.
+Ja E nemēra kvantu stāvokļus, ko A ir nosūtījusi, tad A un B iegūst identiskas protoatslēgas
+Klausoties tikai info no 3. un 4. soļa
+
+Kas notiek, ja E mēra A kvantu bitus.
+Ja E uzmin pareizo mērījumu, tad A,B,E iegūsto to pašu stāvokli
+Ja E kļūdās, tad B un E iegūst random stavokoļus
+
+Sekas:
+E var uzzināt dažus bitus no protoatslēgas
+Citi biti protoatslēgas biti tiek sabojāti.
+
+BB84:
+6. No protoatslēgas m bitiem, m/2 izmanto pārbaudei (vai A un B biti sakrīt).
+	Ja nesakrīt => kāds viņus noklausās
+	Ja sakrīt => pārējie m/2 biti atslēgā.
+
+Pieņēmums visi klasiskie dati ir nosūtī, bet nevar izmainīti, bet visu var noklausīties.
+BB84(korektais):
+6. Ja starp m/2 pārbaudes bitiem.
+	atšķiras >=epsilon(m/2) e=1/100 => kāds noklausās
+	citādi izmantojam pārējos bitus par atslēgu
+7. A un B pielieto kļūdu korekciju savām protoatslēgām.
+	m/2 biti atšķiras
+	m/4 biti sakrīt visi biti.
+
+Problēma E var mērīt mazu skaitu bitu, lai izliktos par torksni līnijā.
+
+8. <=epsilon m par m/4 bitiem.
+Privātuma amplifikācija (pielieto hash funkciju)
+m/4 bitu atslēga
+->m/8 bitu atslēga
+--------------------------------------
+Kvantu stāvokļi vektoru un matricu formā
+--------------------------------------
+1. Kompleksi skaitļi
+	(x+yi)*=x-yi
+	(x+yi)*(x+yi)=x^2+y^2
+	|a|^2=aa*
+2. Kvantu stāvokļi kā vektori
+	|T) = (a_1)
+	      (a_2)
+	      (..)
+	      (a_n)
+
+(T| = (a_1*,...,a_n*)
+(T|  |T)
+bra  ket
+
+Speciālgadījums:
+|i) = 0|1) + ... 1|i) + ...+0|n)
+
+
+(T| * |\Phi) = skalārais reizinājums  T |phi
+
+Iegūt j-elementa amplitūdu
+(i|\Phi) === (i| * |\Phi)
+
+(\Phi|\Phi)=1
+
+Ja \Phi un T ir perpendeikulari, tad
+(\Phi|T) = 0
+
+Mērījums bra-ket formatā
+T mēra pret |0), |1)
+T = \alpha|0) + \beta|1)
+
+\alpha = (0|T)
+\alpha* = (T|0)
+
+|\alpha|^2 = (0|T)(T|0)
+|\beta|^2 = (1|T)(T|1)
+
+Vispārīgi mērījumi
+|T) pret |T_1),|T_2) .... |T_m)
+
+|T) = \alpha|T_1).....
+|T_i|^2=(T_i|T)(T|T_i)
+
+|T)(T| - blīvumu matrica. (Density matrix)
+
+Mērījums:
+(T_i|T)(T_i|T)=(T_i|\ro|T_i)
+Lietojums
+Mērot iegūst vienu no vairākiem stāvokļiem ar kādām varbūtībām. Šādu stāvokli sauc par jaukto stāvokli. To var aprakstīt ar blīvuma matricu.
+Jaukts tāvoklis -> blīvuma matrica
+\ro=p_1|T_1)(T_1|+...+p_n|T_n)(T_n|
+
+Eksāmena datums
+Trešdiena 22.04 10:30-12:30
