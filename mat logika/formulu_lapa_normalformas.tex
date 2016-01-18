@@ -34,4 +34,19 @@ Distributīvie likumi\\
 $(A \lor B) \land C \leftrightarrow (A \land C) \lor (B \land C) \\
 (A \land B) \lor C \leftrightarrow (A \lor C) \land (B \lor C) \\
 $
+
+Normālformas:
+\begin{enumerate}
+\item
+Priekšējā normālforma (Prenex normalform) kvantori izteiksme sākumā
+ $\forall x \exists y ... \forall z  ... (A(x,y)\lor B(z) \land C(x) ...)$
+\item
+Konjunktīvā normālforma UN-i ($\land$) no VAI-iem ($\lor$) no predikātiem ($P(x,y, ...)$). Pie predikātiem var būt negācijas ($\neg P(x,y, ...)$).\\
+$(A(x)\lor \neg B(y))\land (A(x)\lor \neg P(y) \lor C(z)) \land (\neg A(x)\lor B(y) \lor X(z1))$
+\item
+Klausulu forma. Konjuktīvās normālformas VAI-i katrs jaunā rindā - klauzulā. (Aizvietot $\land$ ar komatu un jaunu rindu)\\
+$(A(x)\lor \neg B(y)),\\
+ (A(x)\lor \neg P(y) \lor C(z)),\\
+ (\neg A(x)\lor B(y) \lor X(z1))$
+\end{enumerate}
 \end{document} 
