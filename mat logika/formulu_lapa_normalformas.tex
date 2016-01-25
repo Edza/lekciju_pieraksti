@@ -39,13 +39,14 @@ Normālformas:
 \begin{enumerate}
 \item
 Priekšējā normālforma (Prenex normalform) kvantori izteiksme sākumā
- $\forall x \exists y ... \forall z  ... (A(x,y)\lor B(z) \land C(x) ...)$
+ $\forall x \exists y ... \forall z  ... (A(x,y)\lor B(z) \land C(x) ...)$ Metode: izslēdzam implikācijas, pārsaucam dažādos x(un parējos mainīgos), ienesam negācijas pie predikātiem, iznesam kvantorus sākumā. 
 \item
 Skolema normālforma. Izslēdzam visus eksistences kvantorus ($\exists x$), aizvietojam $x$ ar funkcijām $f(...)$, kur to argumenti ir visi mainīgie un universālkvantoriem ($\forall r$) \textbf{pa kreisi} no x.\\
 Piemēram, $\forall r \exists x \forall y \exists z$, $x$ aizvieto ar $f(r)$, t.i., $x \leftarrow f(r)$, un $z \leftarrow g(r,y)$
 \item
 Konjunktīvā normālforma UN-i ($\land$) no VAI-iem ($\lor$) no predikātiem ($P(x,y, ...)$). Pie predikātiem var būt negācijas ($\neg P(x,y, ...)$).\\
-$(A(x)\lor \neg B(y))\land (A(x)\lor \neg P(y) \lor C(z)) \land (\neg A(x)\lor B(y) \lor X(z1))$
+$(A(x)\lor \neg B(y))\land (A(x)\lor \neg P(y) \lor C(z)) \land (\neg A(x)\lor B(y) \lor X(z1))$\\
+Līdzīga iekavu atvēršanai, izmantojam distributīvos likumus. Metode: apzīmējam $\lor$ ar reizināšanu $\cdot$ un $\land$ ar saskatīšanu $+$, veicam iekavu atvēršanu, kā algebrā. Atceries atgriezties pie loģikas apzīmējumiem. 
 \item
 Klausulu forma. Konjuktīvās normālformas VAI-i katrs jaunā rindā - klauzulā. (Aizvietot $\land$ ar komatu un jaunu rindu)\\
 $(A(x)\lor \neg B(y)),\\
