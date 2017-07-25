@@ -1,0 +1,25 @@
+int f(){
+	int id = fork()
+	if(id == 0) {
+		....
+	} else {
+		....
+	}
+	return 0;
+}
+
+int g(){
+	....
+	fprinf(file,"hello\n");
+	....
+	return 0;
+}
+
+int main(){
+	f();
+	g();
+	return 0;
+}
+
+Is "g()" called twice?
+How many lines are written in the file?
